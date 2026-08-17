@@ -1,0 +1,6932 @@
+1,100..900&display=swap);
+textarea,.oo-ui-window-frame {
+  background:#101418 !important;
+  color:#ffffff !important
+}
+.CodeMirror {
+  height:600px !important;
+  background:black
+}
+.CodeMirror-scroll {
+  min-height:600px !important
+}
+#mw-content-text .wikitable > tr > th,
+#mw-content-text .wikitable > * > tr > th {
+  font-family:'Fredoka',sans-serif;
+  font-size:var(--font-size-medium);
+  background:#111111 !important;
+  background-color:#101010 !important;
+  color:#ffffff !important;
+  padding:8px 14px !important;
+  border-bottom:2px solid #242424 !important;
+  font-weight:450 !important;
+  text-align:center
+}
+.mw-body .wikitable,
+#mw-content-text .wikitable,
+.wikitable {
+  width:100%;
+  text-align:center;
+  background-color:#000000 !important;
+  color:#efefef !important;
+  border:2px solid #242424 !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+  border-radius:10px !important;
+  overflow:hidden
+}
+#mw-content-text .wikitable > tr > td,
+#mw-content-text .wikitable > * > tr > td {
+  background:#000000 !important;
+  padding:15px !important;
+  border-bottom:1px solid #171717cc !important
+}
+.mw-body .wikitablecustom,
+#mw-content-text .wikitablecustom,
+.wikitablecustom {
+  background-color:#000000;
+  color:#ffffff;
+  border:1px solid #1a1a1a;
+  border-collapse:separate;
+  border-spacing:0;
+  border-radius:12px;
+  overflow:hidden
+}
+.wikitablecustom th,
+.wikitablecustom td {
+  border:none
+}
+#mw-content-text .wikitablecustom > tr > th,
+#mw-content-text .wikitablecustom > * > tr > th {
+  background-color:#1f1f1f;
+  font-weight:450;
+  padding:10px 10px;
+  border:1px solid #2f2f2f
+}
+#mw-content-text .wikitablecustom > tr > td,
+#mw-content-text .wikitablecustom > * > tr > td {
+  background-color:#000000;
+  padding:12px 15px;
+  border-bottom:1px solid #111111;
+  border-right:1px solid #2f2f2f
+}
+.wikitablecustom tr th:last-child,
+.wikitablecustom tr td:last-child {
+  border-right:none
+}
+.wikitablecustom tr:last-child td,
+.wikitablecustom tbody tr:last-child td {
+  border-bottom:none
+}
+.battlepass-table {
+  text-align:center;
+  background:black
+}
+.battlepass-table tr:first-child td:nth-child(odd) {
+  background:#161616;
+  line-height:1;
+  padding:5px;
+  color:white;
+  font-weight:600
+}
+.battlepass-table tr:first-child td:nth-child(even) {
+  background:#0b0b0b;
+  line-height:1;
+  padding:5px;
+  color:white;
+  font-weight:600
+}
+.battlepass-table tr:nth-child(2) td {
+  background:black;
+  padding:18px 15px;
+  box-shadow:0 0 0px 1px inset rgb(255 255 255 /5%)
+}
+.battlepass-table tr:last-child td:nth-child(odd) {
+  background:radial-gradient(circle at top,transparent 55%,rgb(var(--raw-color) / 20%)),linear-gradient(210deg,transparent 0%,rgb(var(--raw-color) / 6%) 30%,transparent 60%),#161616;
+  padding:18px 10px;
+  box-shadow:0 0 0px 1px inset rgb(255 255 255 / 5%) 
+}
+.battlepass-table tr:last-child td:nth-child(even) {
+  background:radial-gradient(circle at top,transparent 55%,rgb(var(--raw-color) / 20%)),linear-gradient(210deg,transparent 0%,rgb(var(--raw-color) / 6%) 30%,transparent 60%),#060606;
+  padding:18px 10px;
+  box-shadow:0 0 0px 1px inset rgb(255 255 255 / 5%) 
+}
+.battlepass-season-container {
+  display:flex;
+  flex-direction:column;
+  background:url(https://static.wikitide.net/animeexpeditionswiki/9/96/Battlepass_Season_Background.png),linear-gradient(0deg,rgb(var(--raw-color) / 10%),rgb(var(--raw-color) / 20%)),black;
+  background-size:150%,cover;
+  background-blend-mode:overlay,normal;
+  min-width:230px;
+  height:400px;
+  border-top-left-radius:8px;
+  box-shadow:0 0 0px 2px inset color-mix(rgb(var(--raw-color) / 10%) 95%,white);
+  position:relative;
+  padding:8px 20px;
+  overflow:hidden;
+  align-items:center;
+  line-height:1.2
+}
+.battlepass-season-number {
+  color:white;
+  font-weight:700;
+  font-size:26px;
+  z-index:2;
+  text-shadow:0px 3px black
+}
+.battlepass-season-title {
+  color:color-mix(rgb(var(--raw-color)) 90%,white);
+  font-weight:700;
+  font-size:22px;
+  z-index:2;
+  font-family:'Fredoka';
+  padding:0px 30px;
+  text-shadow:0px 1px #000000;
+  background:linear-gradient(90deg,transparent,black,transparent);
+  white-space:nowrap
+}
+.battlepass-season-image {
+  overflow:hidden;
+  left:0%;
+  bottom:0;
+  mask-image:linear-gradient(0deg,rgb(0 0 0 /0%) 0%,#000 20%);
+  z-index:0;
+  width:400px;
+  position:relative;
+  height:350px
+}
+.battlepass-season-image img {
+  object-fit:contain;
+  pointer-events:none;
+  width:300px;
+  height:370px;
+  left:50%;
+  Position:absolute;
+  transform:translate(-50%)
+}
+.ebox_item {
+  position:relative;
+  width:var(--ebox-size,90px);
+  height:fit-content;
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  transition:transform 0.15s ease-out;
+  margin:5px;
+  min-width:var(--ebox-size,90px)
+}
+.ebox_item_container {
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px 5px;
+  justify-content:center;
+  width:100%;
+  box-sizing:border-box;
+  padding-top:15px
+}
+.ebox_gradient_container {
+  position:relative;
+  width:100%;
+  aspect-ratio:1 / 1;
+  border-radius:11px;
+  box-sizing:border-box;
+  z-index:1;
+  transform-style:preserve-3d;
+  background-image:radial-gradient(circle,rgba(0,0,0,0) 10%,rgba(0,0,0,0.25) 100%),url(https://static.wikitide.net/animeexpeditionswiki/0/00/EntityBox_Dark.png),var(--bg,linear-gradient(135deg,gray,#454545));
+  background-size:cover,91%,99% 99%,cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-blend-mode:normal,normal,normal,normal
+}
+.ebox_gradient_container::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background:var(--bg,linear-gradient(135deg,gray,#454545));
+  transform:translateZ(-1px);
+  filter:blur(5px);
+  opacity:0.8;
+  z-index:-1;
+  pointer-events:none
+}
+.ebox_gradient_container::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:9px;
+  border:1.7px solid rgb(0 0 0 /0.8);
+  padding:2.3%;
+  background:var(--bg,#484848);
+  background-origin:border-box;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  opacity:0.8;
+  pointer-events:none;
+  z-index:2
+}
+.ebox_item_img_container {
+  position:absolute;
+  top:-1%;
+  width:100%;
+  z-index:10;
+  display:flex;
+  justify-content:center;
+  padding:1.6%
+}
+.ebox_item_img_container img {
+  width:100%;
+  height:auto;
+  object-fit:contain
+}
+.ebox_item_item {
+  position:absolute !important;
+  top:50% !important;
+  left:50% !important;
+  transform:translate(-50%,-50%);
+  width:var(--width,100%);
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.ebox_item_item img {
+  width:100% !important;
+  max-width:none !important;
+  height:auto
+}
+.ebox_item:hover {
+  transform:scale(1.03) translateY(-2px) 
+}
+.ebox_Title {
+  width:100%;
+  margin-top:7px;
+  font-family:'Montserrat';
+  font-size:11px;
+  font-weight:550;
+  color:white;
+  text-align:center;
+  line-height:1.2;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill
+}
+.ebox_Title-inner {
+  display:block;
+  width:fit-content;
+  font-family:'Fredoka';
+  font-size:10px;
+  font-weight:550;
+  color:white;
+  text-align:right;
+  line-height:1.2;
+  position:absolute;
+  z-index:1;
+  padding:0px 3px;
+  bottom:0;
+  right:0;
+  margin-bottom:10%;
+  margin-right:8%;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  margin-left:6%;
+  border-bottom-left-radius:5px;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  pointer-events:none
+}
+.ebox_Title-sub {
+  font-size:11px;
+  line-height:1;
+  font-weight:600;
+  color:#ffb3f1
+}
+.ebox_amount {
+  position:absolute;
+  display:block;
+  width:fit-content;
+  font-size:10px;
+  font-weight:550;
+  text-align:left;
+  line-height:1.2;
+  z-index:1;
+  background:rgb(0 0 0 /80%);
+  padding:1.5px 5px;
+  margin-left:4%;
+  border-radius:30px;
+  left:-8px;
+  line-height:1;
+  top:-3px;
+  border:1px solid black;
+  font-family:'Montserrat';
+  font-weight:800;
+  color:#efefef
+}
+.ebox-shiny-icon {
+  position:absolute;
+  display:block;
+  z-index:13;
+  top:-16px;
+  right:-12px;
+  pointer-events:none
+}
+.ebox-shiny-icon img {
+  width:45px;
+  height:auto
+}
+.ebox-evolved-icon {
+  position:absolute;
+  display:block;
+  z-index:13;
+  top:72px;
+  pointer-events:none
+}
+.ebox-evolved-icon img {
+  width:38px;
+  height:auto
+}
+.ebox-stars {
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  z-index:13;
+  right:7px;
+  top:7px;
+  pointer-events:none;
+  --width:90%;
+  --top-offset:1px;
+  --left-offset:1px
+}
+.ebox-stars img {
+  width:15px !important;
+  height:15px !important
+}
+.ebox_item_dark {
+  position:relative;
+  width:var(--ebox-size,90px);
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  transition:transform 0.15s ease-out;
+  margin:5px;
+  border-radius:8px;
+  box-shadow:0 0 2px 1px rgb(255 255 255 /16%) 
+}
+.ebox_gradient_container_dark {
+  position:relative;
+  width:100%;
+  aspect-ratio:1 / 1;
+  border-radius:8px;
+  box-sizing:border-box;
+  z-index:1;
+  transform-style:preserve-3d;
+  background-image:radial-gradient(circle,rgba(0,0,0,0) 10%,rgba(0,0,0,0.25) 100%),url(https://static.wikitide.net/animeexpeditionswiki/9/94/EntityBox_Light.png),linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),linear-gradient(90deg,black,black);
+  background-size:cover,93.5%,cover,cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-blend-mode:normal,normal,normal,normal;
+  mask-image:none,linear-gradient(135deg,black,rgb(0 0 0 / 15%),black),none,none
+}
+.ebox_gradient_container_dark::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background:linear-gradient(45deg,black,black);
+  transform:translateZ(-1px);
+  filter:blur(6px);
+  opacity:0.6;
+  z-index:-1;
+  pointer-events:none
+}
+.ebox_gradient_container-dark::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:8px;
+  background:linear-gradient(45deg,black,black);
+  background-origin:border-box;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  opacity:0.8;
+  pointer-events:none;
+  z-index:2
+}
+.ebox-filter-area.filtering-active {
+  display:grid;
+  grid-template-columns:var(--grid-cols,repeat(auto-fill,minmax(var(--ebox-size,5.5em),1fr)));
+  gap:calc(var(--ebox-size,3em) * 0.2) calc(var(--ebox-size,3em) * 0.15);
+  justify-content:center;
+  align-items:start;
+  margin-bottom:15px
+}
+.ebox-filter-target[style*="display:none"] {
+  display:none !important
+}
+.ebox_item-Item .ebox_item_img_container {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:90%;
+  height:90%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  will-change:transform;
+  image-rendering:-webkit-optimize-contrast
+}
+.ebox_item-Item .ebox_item_img_container img {
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:80px;
+  object-fit:contain;
+  image-rendering:high-quality
+}
+.gradient-text {
+  color:transparent;
+  background:var(--bg);
+  font-weight:650;
+  -webkit-background-clip:text;
+  background-clip:text;
+  background-size:100% 88%;
+  background-position:0px 3px
+}
+.unit-modal-category[class*="rc-"] {
+  background:var(--bg);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  background-size:100% !important;
+  width:fit-content;
+  margin-left:auto !important;
+  margin-right:auto !important
+}
+.rc-webp {
+  --webp_Rarity-gradient:var(--bg)
+}
+.gradient-image {
+  display:inline-flex;
+  position:relative;
+  vertical-align:middle;
+  pointer-events:none
+}
+.gradient-image img {
+  display:block;
+  width:100%;
+  position:relative;
+  height:auto
+}
+.gradient-image::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--bg,transparent);
+  background-size:var(--background-size,contain);
+  background-position:center;
+  -webkit-mask-image:var(--url,none);
+  -webkit-mask-size:contain;
+  -webkit-mask-repeat:no-repeat;
+  mask-image:var(--url,none);
+  mask-size:contain;
+  mask-repeat:no-repeat;
+  mix-blend-mode:multiply;
+  mask-mode:alpha;
+  -webkit-mask-mode:alpha;
+  width:var(--width-offset,var(--width,100%));
+  top:var(--top-offset,0);
+  left:var(--left-offset,0);
+  pointer-events:none
+}
+.gradient-image-shine-effect {
+  --url:url(https://static.wikitide.net/animeexpeditionswiki/d/d0/Shine_Effect_Gradient_Mask.png);
+  position:absolute;
+  left:-21px !important
+}
+.gradient-image-shine-effect img {
+  width:120px;
+  height:120px
+}
+.shine-effect-free {
+  --url:url(https://static.wikitide.net/animeexpeditionswiki/d/d0/Shine_Effect_Gradient_Mask.png);
+  position:absolute;
+  top:-20% !important
+}
+.gradient-image-unitindicatorcolor {
+  --url:url(https://static.wikitide.net/animeexpeditionswiki/d/d8/Unit_Indicator_Color_Icon.png);
+  pointer-events:all;
+  --background-size:65% 65%;
+  --top-offset:1%;
+  --left-offset:3%;
+  --width-offset:94%
+}
+.gradient-image-theme {
+  --url:url(https://static.wikitide.net/animeexpeditionswiki/9/97/Theme_Icon_Mask.png);
+  pointer-events:all;
+  --background-size:20% 18%;
+  --left-offset:3px;
+  --width-offset:98%
+}
+.gradient-image-theme img {
+  width:var(--width,100%) 
+}
+.gradient-image-unitindicatorcolordemo {
+  --stop-1:5%;
+  --stop-2:25%;
+  --stop-2-4:32.4%;
+  --stop-3:45%;
+  --stop-3-4:58.6%;
+  --stop-4:65%;
+  --stop-5:85%;
+  --deg:168deg
+}
+.gradient-image-unitindicatorcolordemo img {
+  width:100%;
+  height:100%
+}
+.gradient-image-stars {
+  --url:url(https://static.wikitide.net/animeexpeditionswiki/b/b5/Equipment_Dice_Icon.png)
+}
+.element-item {
+  display:inline-flex;
+  position:relative;
+  gap:2px;
+  line-height:1.1 !important
+}
+.element-item-icon {
+  display:inline-flex;
+  position:relative;
+  vertical-align:middle;
+  gap:2px;
+  line-height:1.1 !important;
+  top:-2px
+}
+.element-item-icon img {
+  display:block;
+  height:21px;
+  width:auto;
+  position:relative
+}
+.element-item-icon::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--bg,transparent);
+  -webkit-mask-image:var(--url,none);
+  -webkit-mask-size:contain;
+  -webkit-mask-repeat:no-repeat;
+  mask-image:var(--url,none);
+  mask-size:contain;
+  mask-repeat:no-repeat;
+  mix-blend-mode:multiply
+}
+.element-item-text {
+  --deg:90deg;
+  font-weight:800;
+  position:relative;
+  top:0px;
+  background:var(--bg);
+  background-clip:text;
+  color:transparent !important;
+  display:inline-block
+}
+.element-item a {
+  color:inherit !important;
+  text-decoration:none !important
+}
+.icontext-item-icon {
+  display:inline-flex;
+  position:relative;
+  vertical-align:middle;
+  gap:2px;
+  line-height:1.1 !important;
+  top:-1px
+}
+.icontext-item-icon img {
+  display:block;
+  height:22px;
+  width:auto;
+  position:relative
+}
+.icontext-item-icon::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--bg,transparent);
+  -webkit-mask-image:var(--url,none);
+  -webkit-mask-size:contain;
+  -webkit-mask-repeat:no-repeat;
+  mask-image:var(--url,none);
+  mask-size:contain;
+  mask-repeat:no-repeat;
+  mix-blend-mode:multiply
+}
+.icontext-item-text {
+  --deg:90deg;
+  font-weight:800;
+  position:relative;
+  top:0px;
+  background:var(--bg);
+  background-clip:text;
+  color:transparent !important;
+  display:inline-block
+}
+.icontext-item a {
+  color:inherit !important;
+  text-decoration:none !important
+}
+.mw-heading1:first-of-type,
+.mw-heading2:first-of-type {
+  margin-block-start:1em !important
+}
+.expeditions-tooltip-glow {
+  box-shadow:0 0 6px 1px var(--color);
+  width:fit-content;
+  height:fit-content;
+  padding:2px;
+  border-radius:8px;
+  display:block;
+  transition:transform 0.2s
+}
+.expeditions-tooltip-glow:hover {
+  transform:scale(1.02)
+}
+.expeditions-tooltip {
+  position:relative;
+  display:block;
+  box-shadow:0 0 0px 3px black,0 0 0px 4px inset rgb(255 255 255 / 8%),0 0 0px 1px inset rgb(255 255 255 / 8%);
+  background:linear-gradient(0deg,rgb(0 0 0 / 83%),rgb(0 0 0 / 98%)),var(--bg);
+  border-radius:8px;
+  width:100%;
+  max-width:360px
+}
+.expeditions-tooltip-link a {
+  width:100%;
+  display:block;
+  height:auto;
+  color:transparent;
+  text-decoration:none;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  position:absolute
+}
+.expeditions-tooltip-container {
+  display:flex;
+  width:100%;
+  padding:4% 5% 4% 5%;
+  justify-content:space-between;
+  box-sizing:border-box;
+  gap:10px
+}
+.expeditions-tooltip-info {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  justify-content:flex-start;
+  width:68%;
+  flex:1
+}
+.expeditions-tooltip-titlearea {
+  display:flex;
+  flex-direction:column;
+  line-height:1.1;
+  letter-spacing:1%
+}
+.expeditions-tooltip-title {
+  font-size:19px;
+  font-family:'Fredoka';
+  font-weight:600;
+  color:#fff
+}
+.expeditions-tooltip-text {
+  display:block;
+  line-height:1.1;
+  font-weight:620;
+  color:#aaa;
+  letter-spacing:2%;
+  flex:1;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  font-size:14px
+}
+.expeditions-tooltip-tag {
+  background:rgb(0 0 0 / 50%);
+  border:2px solid #272727;
+  border-radius:5px;
+  line-height:1;
+  padding:5px 7px;
+  flex:0;
+  white-space:nowrap
+}
+.expeditions-tooltip-icon {
+  display:flex;
+  position:relative;
+  width:80px;
+  height:80px;
+  flex-direction:column;
+  justify-content:space-evenly
+}
+.item-tooltip-bottom-bar {
+  display:flex;
+  clear:both;
+  align-items:center;
+  gap:8px;
+  width:90%;
+  margin:12px 5% 5% 5%;
+  border-top:2px solid #3a3a3a;
+  padding-top:12px;
+  box-sizing:border-box
+}
+.item-tooltip-mouse-container {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:#222;
+  border:2px solid #444;
+  border-radius:4px;
+  width:32px;
+  height:32px;
+  box-sizing:border-box;
+  flex-shrink:0
+}
+.item-tooltip-action-btn {
+  background:#111;
+  border:1px solid #222;
+  border-radius:4px;
+  color:#fff;
+  flex-grow:1;
+  text-align:center;
+  padding:6px;
+  font-weight:bold;
+  font-size:13px
+}
+.stage-selection-wrapper {
+  overflow-x:auto;
+  max-width:100%;
+  margin:20px auto 0 auto !important;
+  scrollbar-color:#032a67 transparent;
+  border-radius:6px;
+  background:transparent
+}
+.stage-inner-track {
+  display:flex;
+  flex-wrap:nowrap;
+  gap:20px;
+  padding:0px 10px 90px 20px;
+  width:max-content;
+  min-width:100%;
+  position:relative;
+  z-index:0
+}
+.stage-inner-track::before {
+  content:"";
+  position:absolute;
+  top:75px;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1;
+  background-image:linear-gradient(to bottom,transparent,#cee7f5 1.2%,rgb(121 183 252) 5%,#1041b6,#3c72cb);
+  -webkit-mask-image:url(https://static.wikitide.net/animeexpeditionswiki/e/e4/Stage_Selection_Background.png);
+  mask-image:url(https://static.wikitide.net/animeexpeditionswiki/e/e4/Stage_Selection_Background.png);
+  -webkit-mask-size:100% 100%;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  pointer-events:none
+}
+.stage-inner-track::after {
+  content:"";
+  position:absolute;
+  top:75px;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1;
+  background-image:url(https://static.wikitide.net/animeexpeditionswiki/e/e4/Stage_Selection_Background.png);
+  background-size:100% 100%;
+  background-position:center;
+  opacity:0.6;
+  mix-blend-mode:overlay;
+  pointer-events:none
+}
+.stage-item {
+  flex:0 0 220px;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  z-index:1;
+  isolation:isolate
+}
+.stage-image-wrapper {
+  position:relative;
+  width:100%;
+  height:240px;
+  overflow:visible;
+  border-radius:12px;
+  transition:filter 0.4s ease;
+  filter:brightness(0.7);
+  z-index:5
+}
+.stage-image-wrapper::before {
+  content:"";
+  position:absolute;
+  top:-5px;
+  left:50%;
+  transform:translateX(-50%) scaleY(0);
+  width:150%;
+  height:120px;
+  background:radial-gradient(ellipse at bottom,var(--stage-glow-color,rgba(147,51,234,0.7)) 0%,transparent 70%);
+  filter:blur(15px);
+  transition:transform 0.4s ease,opacity 0.4s ease;
+  opacity:0;
+  z-index:-1;
+  pointer-events:none;
+  transform-origin:bottom
+}
+.stage-reflection {
+  position:absolute;
+  top:40px;
+  left:0;
+  width:100%;
+  height:240px;
+  pointer-events:none;
+  z-index:2;
+  opacity:0.175;
+  transform:scaleY(-1);
+  filter:brightness(0.3)
+}
+.stage-label {
+  position:relative;
+  margin-top:-80px;
+  color:white;
+  font-weight:800;
+  font-size:14px;
+  text-shadow:2px 2px 4px #000;
+  background:#151515c9;
+  z-index:10;
+  -webkit-mask-image:linear-gradient(to right,transparent,black 15%,black 85%,transparent)
+}
+.stage-item:hover .stage-image-wrapper {
+  filter:brightness(1)
+}
+.stage-item:hover .stage-image-wrapper::before {
+  transform:translateX(-50%) scaleY(1);
+  opacity:1
+}
+.stage-image-wrapper img,
+.stage-reflection img {
+  display:block;
+  border-radius:12px;
+  width:100%;
+  height:100%;
+  object-fit:cover
+}
+a[href$=":Salticidae44"]:not(.recent-wiki-activity__username) {
+  color:#47b2fa;
+  text-shadow:0 0 3px #3366ff;
+  font-weight:var(--fw-bold)
+}
+a[href$=":Siteztream"]:not(.recent-wiki-activity__username) {
+  color:#0298cc;
+  text-shadow:0 0 2px #e55882;
+  font-weight:var(--fw-bold) 
+}
+a[href$=":Digoxd"]:not(.recent-wiki-activity__username) {
+  color:#7300e6;
+  font-weight:var(--fw-bold)
+}
+a[href$=":Rightful_Heir_of_Death"]:not(.recent-wiki-activity__username) {
+  color:#010101;
+  font-weight:var(--fw-bold);
+  text-shadow:0 0 6px #FFFFFF
+}
+a[href$=":EverShizu"]:not(.recent-wiki-activity__username) {
+  color:#ebf4f5;
+  font-weight:var(--fw-bold);
+  text-shadow:0 0 4px #b5c6e0
+}
+a[href$=":Fvrdream"]:not(.recent-wiki-activity__username) {
+  color:#b1f8c7;
+  font-weight:var(--fw-bold);
+  text-shadow:0 0 4px #89be9b
+}
+.rarity-collapsible {
+  display:flex;
+  width:100%;
+  justify-content:center;
+  background-image:url(https://static.wikitide.net/animeexpeditionswiki/4/48/Unit_List_Stylized_Overlay.png),linear-gradient(180deg,rgb(0 0 0 /92%),rgb(0 0 0 /73%)),var(--bg);
+  border:3px solid transparent;
+  border-radius:8px;
+  padding:11px 11px;
+  box-shadow:0 0 0px 3px inset color-mix(rgb(var(--raw-color,255 0 0) / 7%) 98%,white);
+  background-clip:padding-box,padding-box,border-box;
+  background-blend-mode:overlay,normal,normal;
+  background-size:cover,cover,102%;
+  background-position-x:0,0,-3px
+}
+.rarity-collapsible .gradient-text {
+  filter:brightness(1.2)
+}
+.shop-item-divider {
+  width:100%;
+  height:35px;
+  border-radius:99px;
+  background:linear-gradient(90deg,rgb(25 25 25) 30%,transparent);
+  padding:9px;
+  font-size:18px;
+  color:rgb(180 180 180);
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  font-weight:800;
+  line-height:1;
+  padding-left:16px
+}
+.shop-item-container {
+  display:flex;
+  flex-direction:column;
+  width:min(100%,clamp(450px,49.2%,573.67px));
+  height:auto;
+  border-radius:5px;
+  box-shadow:0 0 0px 2px rgb(0 0 0 /100%),0 0 5px 3px rgb(var(--raw-color) /20%);
+  position:relative;
+  min-height:220px;
+  flex-grow:1
+}
+.shop-item-container::before {
+  content:"";
+  box-shadow:inset 0 0 0px 1px rgb(var(--raw-color) /30%),inset 0 0 0px 4px rgb(255 255 255 /6%);
+  position:absolute;
+  inset:0;
+  z-index:2;
+  border-radius:inherit;
+  pointer-events:none
+}
+.shop-item-small {
+  width:max(215px,32%)
+}
+.shop-item-main {
+  display:flex;
+  flex-direction:column;
+  background:radial-gradient(100% 50% at top,rgb(0 0 0 / 80%),transparent),radial-gradient(130% 135% at top,rgb(0 0 0 / 10%) 50%,transparent 50%),linear-gradient(180deg,rgb(0 0 0 / 80%),rgb(0 0 0 / 30%)),var(--custom-gradient,linear-gradient(180deg,color-mix(in oklch,rgb(var(--raw-color,130 210 80) /0%),white 13%),rgb(var(--raw-color,130 210 80)))),var(--bg-image,linear-gradient(rgb(0 0 0 /0%),rgb(0 0 0 /0%))),var(--bg);
+  flex:3;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  padding:6px 10px;
+  justify-content:space-evenly;
+  background-repeat:no-repeat;
+  background-position:center,center,center,center,var(--position,120% 40%),center;
+  background-size:cover,cover,cover,cover,auto 250px,cover
+}
+.shop-item-image_big-bundle {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/e/e7/Big_Bundle_Thumbnail.png);
+  --position:50% 40% 
+}
+.shop-item-image_small-bundle {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/c/c6/Small_Bundle_Thumbnail.png);
+  --position:50% 40% 
+}
+.shop-item-image_traitcrystal {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/b/ba/Trait_Crystal_Icon.png)
+}
+.shop-item-image_luck {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/5/55/Luck_Potion_Icon.png)
+}
+.shop-item-image_superluck {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/e/e7/Super_Luck_Potion_Icon.png)
+}
+.shop-item-image_gem {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/8/8d/Gem_Icon.png)
+}
+.shop-item-image_gold {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/2/26/Gold_Icon.png)
+}
+.shop-item-image_statreroll {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/f/ff/Stat_Reroll_Icon.png)
+}
+.shop-item-image_statlock {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/5/55/Stat_Lock_Icon.png)
+}
+.shop-item-image_equipmentreroll {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/7/72/Equipment_Reroll_Icon.png)
+}
+.shop-item-image_equipmentlock {
+  --bg-image:url(https://static.wikitide.net/animeexpeditionswiki/0/08/Equipment_Lock_Icon.png)
+}
+.shop-item-main::before {
+  content:"";
+  background:url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png);
+  opacity:0.18;
+  z-index:0;
+  background-size:5px;
+  position:absolute;
+  width:100%;
+  height:75%;
+  top:0;
+  left:0;
+  pointer-events:none
+}
+.shop-item-toptag {
+  position:absolute;
+  top:-20px;
+  z-index:3;
+  left:3px
+}
+.shop-item-toptag-modifier {
+  font-size:120%;
+  background:linear-gradient(90deg,transparent 0%,rgb(0 0 0 / 85%) 10%,rgb(0 0 0 / 85%) 90%,transparent 100%) border-box;
+  padding:1px 8px;
+  --stop-1:0%;
+  --stop-3:50%;
+  --stop-5:100%
+}
+.shop-item-text {
+  display:flex;
+  flex-direction:column;
+  line-height:1.2;
+  z-index:1;
+  background:linear-gradient(90deg,transparent,rgb(0 0 0 /30%) 6%);
+  position:relative;
+  margin-right:-10px;
+  flex:1
+}
+.shop-item-title {
+  font-family:'Fredoka'
+}
+.shop-item-subtitle {
+  color:#cccccc;
+  font-weight:600;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill
+}
+.shop-item-items {
+  display:flex;
+  align-items:center;
+  background:rgb(0 0 0 /50%);
+  border:3px solid rgb(0 0 0 / 70%);
+  border-radius:8px;
+  zoom:0.8;
+  margin-top:5px;
+  min-height:105px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  scrollbar-width:thin;
+  scrollbar-color:white transparent
+}
+.shop-item-info {
+  align-items:center;
+  justify-content:flex-end;
+  display:flex;
+  padding:8px 8px;
+  background:rgb(25,25,25);
+  flex:1;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  z-index:1
+}
+.shop-item-button {
+  position:relative;
+  display:flex;
+  background:linear-gradient(transparent,rgba(0,0,0,0.6)) padding-box,linear-gradient(rgb(134,253,4),rgb(57,152,3)) border-box;
+  padding:6px 20px;
+  border-radius:5px;
+  border:3px solid transparent;
+  width:min(200px,35%);
+  min-width:195px;
+  justify-content:space-between;
+  box-shadow:0 0 0px 2px black;
+  -webkit-text-stroke:5px black;
+  paint-order:stroke fill
+}
+.shop-item-limit {
+  position:absolute;
+  top:-15px;
+  right:-9px;
+  font-weight:700;
+  font-size:14px;
+  -webkit-text-stroke:3px black;
+  background:rgb(0 0 0 /80%);
+  line-height:1;
+  padding:1px 5px;
+  color:#c5c5c5;
+  border:3px solid black;
+  border-radius:12px
+}
+.shop-item-button-text {
+  position:relative;
+  font-weight:600;
+  font-family:'Fredoka';
+  font-size:20px;
+  color:white
+}
+.small-inline-icon {
+  display:inline-flex;
+  position:relative;
+  vertical-align:middle;
+  gap:2px;
+  line-height:1.1 !important;
+  top:-2px
+}
+.small-inline-icon img {
+  display:block;
+  height:15px;
+  width:auto;
+  position:relative
+}
+.stats-item-container {
+  display:flex;
+  background:linear-gradient(90deg,rgb(0 0 0 /100%),rgb(0 0 0 /60%)) padding-box,var(--bg,var(--color)) border-box;
+  --opacity:0.5;
+  padding:8px 8px;
+  gap:10px;
+  border:1px solid transparent;
+  width:min(600px,100%);
+  line-height:1;
+  align-items:center;
+  font-weight:650;
+  border-radius:5px;
+  font-size:20px
+}
+.stats-item-rarity {
+  border-radius:3px;
+  border:2px solid transparent;
+  background:linear-gradient(180deg,rgb(0 0 0 /95%),rgb(0 0 0 /60%)) padding-box,var(--bg) border-box;
+  font-weight:800;
+  width:55px;
+  padding:3px 0;
+  text-align:center
+}
+.stats-item-rarity-lesser {
+  border-radius:3px;
+  border:2px solid var(--color);
+  --opacity:0.3;
+  font-weight:800;
+  padding:3px 0;
+  width:55px;
+  text-align:center
+}
+.stats-item-range {
+  color:#b5b5b5
+}
+.stats-item-odds {
+  margin-left:auto;
+  color:white
+}
+.achievement-card {
+  max-width:600px;
+  width:100%;
+  padding:0;
+  overflow:hidden;
+  margin-top:10px 
+}
+.achievement-card + p,
+.achievement-card + p > br {
+  display:none !important;
+  height:0 !important;
+  margin:0 !important;
+  padding:0 !important 
+}
+.achievement-card .mw-collapsible-text {
+  display:none !important 
+}
+.achievement-card .mw-collapsible-toggle::before {
+  content:'Rewards' !important;
+  font-size:14px !important;
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important 
+}
+.achievement-card * {
+  font-family:'Montserrat',sans-serif !important 
+}
+.achievement-desc,
+.achievement-desc * {
+  font-family:var(--font-family-base) !important 
+}
+.achievement-card .mw-collapsible-toggle::after {
+  display:none !important;
+  content:none !important 
+}
+.achievement-card .mw-collapsible-content {
+  width:fit-content !important;
+  margin:0 !important;
+  padding:0 !important 
+}
+.achievement-card .mw-collapsible {
+  width:100% !important;
+  box-sizing:border-box !important 
+}
+.achievement-inner {
+  position:relative;
+  background:#000000;
+  border-radius:15px
+}
+.achievement-outer {
+  position:relative;
+  overflow:hidden;
+  border-radius:15px 
+}
+.achievement-card .mw-collapsible-toggle {
+  display:flex !important;
+  justify-content:space-between !important;
+  padding:2px 15px !important;
+  background:transparent !important;
+  border:none !important;
+  border-radius:0 0 8px 4px !important;
+  color:#5bb4ff !important;
+  font-size:14px !important;
+  font-weight:600 !important;
+  text-align:left !important;
+  cursor:pointer !important;
+  box-shadow:none !important;
+  position:absolute;
+  bottom:60px;
+  right:10px;
+  width:auto
+}
+.achievement-header {
+  padding:16px 20px 12px 20px;
+  border-left:6px solid var(--color);
+  background:linear-gradient(184deg,rgba(0,0,0,0.9) 57.5%,color-mix(in srgb,var(--color) 10%,transparent) 60%,black 80%),linear-gradient(90deg,transparent 1%,black 1%),var(--bg);
+  border-radius:8px;
+  border:2px solid var(--border-color);
+  position:relative;
+  overflow:hidden;
+  clip-path:inset(0 0 0 0 round 8px);
+  background-blend-mode:screen,normal,normal 
+}
+.achievement-inner::after {
+  content:none !important 
+}
+.achievement-outer::after {
+  content:none !important 
+}
+.achievement-type {
+  font-size:16px;
+  font-weight:770 !important;
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+  margin-bottom:-8px;
+  margin-top:-10px 
+}
+.achievement-title-row {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  margin-bottom:1px 
+}
+.achievement-name {
+  font-size:24px;
+  font-weight:640;
+  font-family:'Fredoka' !important;
+  --deg:180deg;
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important 
+}
+.achievement-desc {
+  color:#8f8f8f;
+  font-weight:600;
+  margin-top:-5px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis
+}
+.achievement-rewards {
+  display:flex;
+  justify-content:center;
+  padding:2px 18px;
+  gap:8px;
+  flex-wrap:wrap 
+}
+.achievement-card.c-puppetmark {
+  --border-color:rgb(235 83 255 / 0.4) 
+}
+.achievement-card.no-diagonal .achievement-header {
+  background:linear-gradient(90deg,transparent 1%,black 1%),var(--bg) !important;
+  background-blend-mode:normal,normal !important 
+}
+.achievement-desc strong {
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+  font-weight:820 
+}
+.achievement-header::after {
+  content:'';
+  position:absolute;
+  right:0px;
+  top:-49px;
+  width:200px;
+  height:200px;
+  background-image:url(https://animeexpeditions.miraheze.org/wiki/Special:FilePath/Quest_Decal.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  opacity:0.20;
+  mask-image:linear-gradient(to left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.5) 55%,transparent 100%);
+  -webkit-mask-image:linear-gradient(to left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.5) 55%,transparent 100%);
+  pointer-events:none;
+  z-index:2 
+}
+.achievement-header::before {
+  content:'';
+  position:absolute;
+  inset:0;
+  background:var(--bg);
+  opacity:0.65;
+  mix-blend-mode:overlay;
+  pointer-events:none;
+  z-index:3 
+}
+.achievement-type,
+.achievement-title-row,
+.achievement-desc {
+  position:relative;
+  z-index:4 
+}
+.event-card {
+  width:100%;
+  padding:0;
+  border-radius:4px;
+  margin-top:10px
+}
+.event-card * {
+  font-family:'Montserrat',sans-serif !important
+}
+.event-desc,
+.event-desc * {
+  font-family:var(--font-family-base) !important
+}
+.event-inner {
+  background:#000000;
+  border-radius:10px;
+  border:2px solid black
+}
+.event-card .mw-collapsible-toggle {
+  display:flex !important;
+  justify-content:space-between !important;
+  padding:2px 15px !important;
+  background:#000000 !important;
+  border:none !important;
+  border-radius:0 0 8px 4px !important;
+  color:#5bb4ff !important;
+  font-size:14px !important;
+  font-weight:600 !important;
+  text-align:left !important;
+  cursor:pointer !important;
+  box-shadow:none !important;
+  position:relative;
+  top:-95px;
+  right:10px
+}
+.event-header {
+  padding:16px 20px 12px 25px;
+  background:linear-gradient(90deg,#00000075 0.5%,black 0.5%),var(--bg) !important;
+  background-blend-mode:normal,normal !important;
+  border-radius:8px;
+  cursor:pointer;
+  position:relative;
+  transition:transform 0.15s,filter 0.15s,border 0.15s;
+  overflow:hidden
+}
+.event-header:hover {
+  filter:brightness(1.2);
+  transform:scale(1.01);
+  outline:1px solid white
+}
+.event-card-link {
+  position:absolute;
+  inset:0;
+  z-index:2;
+  display:block;
+  height:100%
+}
+.event-type {
+  font-size:16px;
+  font-weight:770 !important;
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+  margin-bottom:-8px;
+  margin-top:-10px;
+  filter:drop-shadow(0 0 8px rgb(var(--raw-color) / 2))
+}
+.event-title-row {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  margin-bottom:1px
+}
+.event-name {
+  font-size:24px;
+  font-weight:640;
+  font-family:'Fredoka' !important;
+  --deg:180deg;
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important
+}
+.event-timer {
+  color:#8f8f8f;
+  font-weight:600;
+  margin-top:-5px
+}
+.event-timer strong {
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+  font-weight:820
+}
+.unit-trial-pt,
+.unit-trial-se,
+.unit-trial-r {
+  display:flex;
+  flex-direction:column;
+  gap:4px
+}
+.unit-trial-items {
+  display:flex;
+  flex-wrap:nowrap;
+  gap:4px;
+  align-items:flex-start
+}
+.unit-trial-label {
+  background:var(--bg) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+  font-size:16px;
+  font-weight:770;
+  font-family:'Montserrat',sans-serif
+}
+.unit-trial-rewards {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  padding:8px
+}
+.global-tooltip-wrapper {
+  position:relative;
+  display:inline-block;
+  cursor:help
+}
+.global-tooltip-wrapper .global-tooltip-content {
+  display:none;
+  position:fixed;
+  z-index:9999;
+  width:max-content;
+  pointer-events:none
+}
+.global-tooltip-wrapper:hover .global-tooltip-content {
+  display:block
+}
+table.p-infobox-table {
+  float:right;
+  clear:right;
+  max-width:400px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left:1.25rem
+}
+@media screen and (max-width:750px) {
+  table.p-infobox-table {
+    float:none;
+    margin:auto
+  }
+}
+.properties-table {
+  color:#ffffff;
+  border:2px solid rgb(41 41 41);
+  border-collapse:separate;
+  border-radius:12px;
+  box-shadow:0 0 0px 2px black;
+  overflow:hidden;
+  border-spacing:0;
+  line-height:1;
+  max-width:500px;
+  margin-left:0;
+  margin-bottom:1%;
+  margin-top:2%;
+  min-width:300px
+}
+.properties-table > * > tr > th {
+  background-color:#1f1f1f;
+  font-weight:600;
+  padding:10px 10px;
+  border:none;
+  font-family:'Fredoka';
+  font-size:20px;
+  -webkit-text-stroke:6px black;
+  paint-order:stroke fill;
+  color:white
+}
+.properties-table > * > tr > td {
+  background-color:#000000;
+  padding:11px 9px;
+  border:none;
+  text-align:center;
+  width:100vw
+}
+.properties-table-p {
+  color:#ffffff;
+  border:2px solid rgb(41 41 41);
+  border-collapse:separate;
+  border-radius:12px;
+  box-shadow:0 0 0px 2px black;
+  overflow:hidden;
+  border-spacing:0;
+  text-align:left;
+  width:100%
+}
+.properties-table-p tr td {
+  background-color:#000000;
+  padding:10px 9px
+}
+.properties-header {
+  background:rgb(25 25 25);
+  padding:7px 12px;
+  line-height:1;
+  font-weight:700;
+  -webkit-text-stroke:3px black;
+  paint-order:stroke fill;
+  border-bottom:hidden;
+  border-radius:3px 3px 0px 0px
+}
+.properties-content {
+  background:rgb(12 12 12);
+  padding:8px;
+  font-weight:450;
+  -webkit-text-stroke:3px #000000;
+  paint-order:stroke fill;
+  color:rgb(193 193 193);
+  line-height:1.4;
+  border-radius:0px 0px 3px 3px
+}
+.p-header-derounder {
+  border-radius:0
+}
+.properties-table-img img {
+  width:100%;
+  height:auto;
+  max-height:600px;
+  max-width:max-content
+}
+.category-button {
+  display:inline-flex;
+  line-height:1;
+  padding:12px;
+  margin-top:1%;
+  margin-bottom:1%;
+  background:url(https://static.wikitide.net/animeexpeditionswiki/6/69/Expeditions_Star.png),linear-gradient(180deg,color-mix(in oklab,rgb(var(--raw-color)) 50%,black 40%) 0%,rgb(0 0 0 /0%) 100%),url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png),var(--bg);
+  --deg:90deg;
+  background-repeat:no-repeat,no-repeat,repeat,no-repeat;
+  background-size:32px,cover,5px,cover;
+  background-position:10px 9px,0px 0px,0px 0px,0px 0px;
+  background-blend-mode:normal,multiply,soft-light,normal;
+  border-radius:8px;
+  border:2px solid black;
+  -webkit-text-stroke:6px black;
+  paint-order:stroke fill;
+  color:white !important;
+  font-size:24px;
+  width:100%;
+  cursor:pointer;
+  font-weight:600;
+  padding-left:50px;
+  box-shadow:0 0 0px 2px inset rgb(255 255 255 /10%),0 0 4px 1px rgb(var(--raw-color) /var(--category-opacity,30%));
+  transition:transform 0.2s,filter 0.2s,box-shadow 0.15s
+}
+.category-button:hover {
+  transform:scale(1.01);
+  filter:brightness(1.1);
+  --category-opacity:80%
+}
+.p-table-entrystyle {
+  background:#000;
+  border-spacing:8px;
+  width:100%
+}
+.p-table-entrystyle > * > tr > td {
+  border:none;
+  text-align:left;
+  font-weight:600;
+  transition:transform 0.3s;
+  padding:0
+}
+.p-table-entrystyle a {
+  display:inline-block;
+  width:100%;
+  color:white !important;
+  background-color:rgb(25 25 25);
+  padding:12px;
+  border:2px solid rgb(42 42 42);
+  border-radius:3px;
+  font-size:18px
+}
+.p-table-entrystyle > * > tr > td:hover {
+  transform:scale(1.02)
+}
+.p-table-entrystyle a:visited {
+  outline:none !important;
+  box-shadow:none !important;
+  text-decoration:none !important
+}
+.crafting-container {
+  display:flex;
+  background:#000;
+  width:var(--width,100%);
+  align-items:center;
+  gap:8px;
+  line-height:1;
+  padding:8px;
+  border:2px solid rgb(41 41 41);
+  border-radius:12px;
+  box-shadow:0 0 0px 2px black;
+  overflow:hidden;
+  border-spacing:0;
+  min-width:300px;
+  flex-grow:1;
+  margin-bottom:1%
+}
+.crafting-container:last-of-type {
+  margin-bottom:0%
+}
+.crafting-result {
+  padding-left:7px
+}
+.crafting-arrow {
+  transform:rotate(180deg);
+  display:flex;
+  justify-content:center
+}
+.crafting-arrow img {
+  mask-image:linear-gradient(269deg,rgb(255 255 255 / 80%),rgb(255 0 0 / 25%))
+}
+.crafting-ingredients {
+  background-color:rgb(12 12 12);
+  border:2px solid rgb(42 42 42);
+  border-radius:8px;
+  font-size:18px;
+  display:flex;
+  flex-grow:1;
+  flex-wrap:wrap;
+  padding:3px
+}
+@media screen and (max-width:470px) {
+  .crafting-container {
+    flex-wrap:wrap;
+    justify-content:center;
+    --width:100%
+  }
+  .crafting-ingredients {
+    justify-content:center
+  }
+}
+.crafting-dualcolumn {
+  display:flex;
+  flex-wrap:wrap;
+  gap:0px 8px;
+  --width:45%;
+  justify-content:space-between
+}
+.greater-properties-container {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  flex-grow:1;
+  margin-bottom:1%
+}
+.properties-container {
+  color:#ffffff;
+  display:flex;
+  flex-direction:column;
+  border:2px solid rgb(41 41 41);
+  border-collapse:separate;
+  border-radius:12px;
+  box-shadow:0 0 0px 2px black;
+  overflow:hidden;
+  line-height:1;
+  background:#010101;
+  gap:5px;
+  padding:8px
+}
+.properties-required {
+  text-align:left;
+  font-weight:600;
+  -webkit-text-stroke:3px black;
+  paint-order:stroke fill;
+  transition:transform 0.3s;
+  display:flex;
+  justify-content:space-between;
+  background:#010101;
+  width:100%;
+  color:white !important;
+  background-color:rgb(25 25 25);
+  padding:0px 12px;
+  border:2px solid rgb(42 42 42);
+  border-radius:8px;
+  font-size:16px;
+  align-items:center
+}
+.properties-property {
+  text-align:left;
+  font-weight:600;
+  -webkit-text-stroke:3px black;
+  paint-order:stroke fill;
+  transition:transform 0.3s;
+  display:flex;
+  justify-content:space-between;
+  background:#010101;
+  width:100%;
+  color:white !important;
+  background-color:rgb(25 25 25);
+  padding:8px;
+  border:2px solid rgb(42 42 42);
+  border-radius:3px;
+  font-size:16px;
+  align-items:center
+}
+.number-style {
+  font-weight:700;
+  color:white !important
+}
+.number-style a {
+  font-weight:700;
+  color:white !important;
+  text-decoration:none
+}
+.link-override a {
+  color:var(--text-color) !important;
+  text-decoration:none
+}
+.timer-active {
+  color:#88ef86
+}
+.timer-upcoming {
+  color:#ffb71e
+}
+.timer-ended {
+  color:#e1351c;
+  text-decoration:line-through;
+  opacity:0.6
+}
+.timer-static {
+  color:#aaa
+}
+.respective-unit-container {
+  position:relative;
+  display:flex;
+  border-radius:8px;
+  height:150px;
+  overflow:hidden;
+  justify-content:space-between;
+  align-items:center;
+  background:linear-gradient(180deg,black,#00000044),var(--bg);
+  box-shadow:0 0 0px 2px rgb(0 0 0 /100%),0 0 5px 3px rgb(var(--raw-color) /50%);
+  max-width:500px;
+  min-width:300px
+}
+.respective-unit-container::before {
+  content:"";
+  box-shadow:inset 0 0 0px 1px rgb(var(--raw-color) /30%),inset 0 0 0px 4px rgb(255 255 255 /6%);
+  background:radial-gradient(ellipse 180% 100% at bottom,rgb(var(--raw-color) /50%),transparent 30%);
+  position:absolute;
+  inset:0;
+  z-index:2;
+  border-radius:inherit;
+  pointer-events:none
+}
+.respective-unit-container::after {
+  content:"";
+  background:url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png);
+  opacity:0.18;
+  z-index:0;
+  background-size:0.9%;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0
+}
+.respective-unit-text {
+  display:flex;
+  padding:20px;
+  flex-direction:column;
+  z-index:3;
+  font-weight:600;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill
+}
+.respective-unit-image {
+  mask-image:linear-gradient(180deg,black 20%,transparent 60%);
+  position:absolute;
+  top:var(--offset,100%);
+  left:var(--l-offset,75%);
+  transform:translate(-50%,-50%)
+}
+.respective-unit-image img {
+  height:420px;
+  width:auto
+}
+.title-grand-container {
+  display:flex;
+  gap:8px;
+  flex-direction:column;
+  background:linear-gradient(90deg,#111111,#060606);
+  border-radius:8px;
+  padding:1%;
+  border:1px solid black;
+  box-shadow:0 0 0px 2px inset rgb(255 255 255 /10%)
+}
+.title-container {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:2px solid rgb(255 255 255 /10%);
+  padding-bottom:8px
+}
+.title-container:last-of-type {
+  border-bottom:none;
+  padding-bottom:0
+}
+.title-item {
+  display:flex;
+  position:relative;
+  font-size:clamp(16px,4vw,26px);
+  ;
+  border:4px solid transparent;
+  background:var(--bg);
+  padding:4px 18px 4px 30px;
+  margin-left:60px;
+  margin-top:18px;
+  margin-bottom:18px;
+  width:fit-content;
+  font-weight:600;
+  font-family:'Fredoka';
+  border-radius:8px;
+  box-shadow:0 0 0px 3px black
+}
+.title-image {
+  position:absolute;
+  top:var(--top-offset,-23px);
+  left:-60px;
+  pointer-events:none
+}
+.title-image img {
+  width:88px;
+  height:auto
+}
+.title-text-overlay {
+  position:absolute;
+  z-index:3;
+  background:var(--color,none);
+  background-clip:text;
+  color:transparent;
+  white-space:nowrap
+}
+.title-text-outline {
+  -webkit-text-stroke:8px black;
+  paint-order:stroke fill;
+  color:var(--text,white);
+  white-space:nowrap
+}
+.title-desc {
+  padding:12px;
+  font-weight:500;
+  color:white;
+  text-align:right
+}
+.title-item-iconless {
+  margin-left:25px;
+  padding:4px 12px
+}
+@media screen and (max-width:900px) {
+  .title-container {
+    flex-wrap:wrap
+  }
+  .title-desc {
+    text-align:left
+  }
+}
+.page-anchor {
+  scroll-margin-top:40%;
+  position:absolute;
+  scroll-behavior:smooth
+}
+.banner-template {
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.08),0 4px 12px rgba(0,0,0,0.4);
+  font-family:'Fredoka'
+}
+.banner-text {
+  flex:1;
+  overflow:hidden
+}
+.banner-text h1 {
+  margin:0;
+  font-size:28px;
+  font-weight:900;
+  line-height:1;
+  color:#ff9ff8;
+  -webkit-text-stroke:2px #1d1129;
+  text-shadow:0 3px 0 #1d1129,0 0 8px rgba(255,159,248,0.25)
+}
+.banner-text p {
+  margin:6px 0 0;
+  font-size:16px;
+  font-weight:800;
+  color:#ffffff;
+  text-shadow:2px 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000
+}
+.banner-image-box {
+  width:80px;
+  height:80px;
+  margin-left:16px;
+  border-radius:8px;
+  border:2px solid #4d4d4d;
+  background:linear-gradient(to bottom,#6b6b6b,#383838);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  overflow:hidden;
+  position:relative;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 2px 6px rgba(0,0,0,0.4);
+  transition:transform 0.15s ease
+}
+.banner-image-box:hover {
+  transform:scale(1.03)
+}
+.banner-image-box img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:none
+}
+.banner-image-box.has-image img {
+  display:block
+}
+.banner-image-box.has-image .placeholder {
+  display:none
+}
+.sandbox-collapsible .mw-collapsible-toggle-default {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background:none;
+  margin:0px;
+  padding:13px;
+  border:0;
+  font:inherit
+}
+.unit-page-unit-container {
+  display:flex;
+  justify-content:center;
+  width:100%;
+  height:fit-content;
+  min-height:770px;
+  flex-wrap:wrap;
+  gap:8px
+}
+.unit-page-container-1 {
+  display:flex;
+  width:max(48%,300px);
+  flex-grow:1;
+  flex-direction:column;
+  position:relative
+}
+.unit-page-pose-container {
+  display:grid;
+  background:black;
+  border:2px solid #191919;
+  border-radius:16px;
+  user-select:none;
+  justify-content:center;
+  grid-template-columns:1fr;
+  grid-template-rows:auto;
+  padding:8px 0px;
+  max-height:770px;
+  align-items:center;
+  box-shadow:0 0 0 2px black;
+  overflow:hidden;
+  position:relative
+}
+.unit-page-pose-img {
+  width:fit-content;
+  height:fit-content;
+  transition:opacity 0.15s ease-out;
+  grid-area:1/1;
+  opacity:0;
+  pointer-events:none;
+  margin-left:auto;
+  margin-right:auto
+}
+.unit-page-pose-img img {
+  width:auto;
+  height:auto;
+  max-height:750px;
+  max-width:100%
+}
+.unit-page-pose-img.is-active {
+  opacity:1;
+  pointer-events:auto
+}
+.unit-page-shiny-toggle-anchor {
+  position:absolute;
+  top:10px;
+  left:50%;
+  transform:translate(-50%);
+  z-index:2
+}
+.unit-page-shiny-toggle {
+  position:relative;
+  text-align:center;
+  width:180px;
+  padding:8px;
+  transition:transform 0.3s;
+  cursor:pointer
+}
+.unit-page-shiny-toggle::after {
+  content:"";
+  position:absolute;
+  background:linear-gradient(rgb(0 0 0 /30%)),radial-gradient(ellipse at center,rgb(0 0 0 /40%),rgb(0 0 0 /90%)) padding-box,var(--bg) border-box;
+  --opacity:1;
+  border:2px solid transparent;
+  padding:8px;
+  text-align:center;
+  mask-image:linear-gradient(90deg,transparent,black,transparent);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1
+}
+.unit-page-shiny-toggle:hover {
+  transform:scale(1.05)
+}
+.unit-page-shiny-toggle-icon {
+  position:absolute;
+  top:-53%;
+  pointer-events:none
+}
+.unit-page-shiny-toggle-icon img {
+  width:70px;
+  height:auto
+}
+.unit-page-shiny-toggle-text {
+  position:relative;
+  font-weight:800;
+  font-size:18px !important;
+  background:var(--bg);
+  -webkit-background-clip:text;
+  color:transparent !important;
+  line-height:1 !important;
+  margin:0 !important;
+  width:fit-content;
+  left:50%;
+  transform:translate(-50%)
+}
+.unit-page-title {
+  font-size:30px;
+  font-weight:550;
+  color:white;
+  -webkit-text-stroke:3px black;
+  paint-order:stroke fill;
+  margin-left:8px;
+  margin-top:12px
+}
+.unit-page-rarity {
+  line-height:1.2;
+  font-size:22px;
+  font-weight:700;
+  -webkit-text-stroke:0;
+  background:var(--bg);
+  -webkit-background-clip:text;
+  color:transparent;
+  margin-top:0;
+  margin-left:8px;
+  margin-bottom:12px;
+  width:fit-content
+}
+.unit-page-properties-container {
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  border-radius:16px;
+  border:2px solid #292929;
+  height:687.61px;
+  box-shadow:0 0 0 2px black
+}
+.unit-page-icon-header {
+  background:#191919;
+  padding:4px 8px
+}
+.unit-page-icon-container {
+  background:black;
+  border-radius:100px;
+  padding:4px 12px;
+  display:flex;
+  gap:5px;
+  border:2px solid #292929;
+  position:relative;
+  overflow:hidden;
+  z-index:1;
+  box-shadow:inset 0 0 10px 0 black;
+  transition:box-shadow 0.4s;
+  user-select:none;
+  cursor:pointer
+}
+.unit-page-icon-container:hover {
+  box-shadow:inset 0 0 10px 0 #304a79
+}
+.unit-page-icon {
+  pointer-events:none
+}
+.unit-page-icon img {
+  vertical-align:middle;
+  width:40px;
+  height:auto
+}
+.unit-page-passives-container {
+  display:flex;
+  flex-direction:column;
+  padding:5px;
+  background:black;
+  padding:8px 10px;
+  gap:5px;
+  height:100%;
+  overflow-y:auto;
+  scrollbar-width:thin;
+  scrollbar-color:#292929 transparent
+}
+.unit-page-passive-block {
+  border-radius:6px;
+  border:2px solid rgb(41 41 41);
+  font-size:15px;
+  height:fit-content
+}
+.unit-page-passive-header {
+  background:rgb(25 25 25);
+  padding:7px 12px;
+  line-height:1;
+  font-weight:500;
+  display:flex;
+  gap:12px;
+  color:white;
+  --stop-3:50%;
+  --stop-5:100%;
+  align-items:center;
+  line-height:1
+}
+.unit-page-passive-content {
+  background:rgb(12 12 12);
+  padding:8px;
+  font-weight:450;
+  color:rgb(193 193 193);
+  line-height:1.4
+}
+.unit-page-passive-header:first-child {
+  border-top-left-radius:3px;
+  border-top-right-radius:3px
+}
+.unit-page-passive-header:last-child {
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px
+}
+.unit-page-passive-content:first-child {
+  border-top-left-radius:3px;
+  border-top-right-radius:3px
+}
+.unit-page-passive-content:last-child {
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px
+}
+.unit-page-passive-tag {
+  background:rgb(6 6 6);
+  border:2px solid black;
+  box-shadow:0 0 0px 2px rgb(36 36 36);
+  color:rgb(192 192 192);
+  padding:2px 3px;
+  font-weight:600;
+  border-radius:4px
+}
+.unit-page-mech-modal {
+  width:fit-content;
+  border:2px solid black;
+  box-shadow:0 0 0px 2px rgb(36 36 36);
+  border-radius:16px;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  height:fit-content;
+  margin-left:3%;
+  margin-right:3%
+}
+.overlay-backdrop-mask {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  background-color:rgba(0,0,0,0.4);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  z-index:99999;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 0.25s ease-in-out;
+  font-size:inherit
+}
+.overlay-backdrop-mask.is-visible {
+  opacity:1;
+  pointer-events:auto
+}
+.overlay-backdrop-mask.is-visible .unit-page-mech-modal {
+  transform:translateY(0)
+}
+.ae-container {
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  border-radius:16px;
+  border:2px solid rgb(36 36 36);
+  box-shadow:0 0 0 2px black;
+  width:100%;
+  background:black;
+  color:white;
+  margin-top:8px;
+  margin-bottom:8px
+}
+.ae-container-header {
+  line-height:1;
+  background:rgb(16 16 16);
+  padding:12px;
+  text-align:center;
+  font-weight:600;
+  font-family:'Fredoka';
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  font-size:24px
+}
+.ae-container-content {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  background:black;
+  padding:12px 16px;
+  width:100%
+}
+.ae-container-cell {
+  display:flex;
+  padding:16px;
+  width:100%;
+  border:2px solid rgb(36 36 36);
+  border-radius:16px;
+  background:black;
+  gap:12px 16px;
+  align-items:center;
+  justify-content:center
+}
+@media screen and (max-width:600px) {
+  .ae-container-cell {
+    flex-wrap:wrap
+  }
+}
+@media screen and (max-width:737px) {
+  .unit-evo-container {
+    flex-wrap:wrap
+  }
+}
+.unit-page-obtainment-img {
+  border:2px solid rgb(36 36 36);
+  border-radius:18px;
+  width:150px;
+  height:fit-content
+}
+.unit-page-obtainment-img img {
+  width:100%;
+  height:auto
+}
+.unit-page-obtainment-reqs {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  justify-content:center;
+  margin-right:auto;
+  max-width:80%
+}
+.clean-video-wrapper {
+  position:relative;
+  width:300px;
+  display:inline-block;
+  background:#000000;
+  overflow:hidden;
+  min-height:168px
+}
+.clean-video-wrapper video {
+  width:100% !important;
+  height:auto !important;
+  display:block
+}
+.clean-video-wrapper .mw-tmh-play-btn,
+.clean-video-wrapper .mediaPlayer,
+.clean-video-wrapper .player-controls {
+  display:none !important;
+  opacity:0 !important;
+  pointer-events:none !important
+}
+.video-click-interceptor {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:transparent;
+  z-index:10;
+  cursor:pointer;
+  user-select:none
+}
+.up-attack-header {
+  background:linear-gradient(rgb(36 36 36 / 30%)),url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png),linear-gradient(270deg,transparent,black)
+}
+.unit-page-attack-container {
+  display:flex;
+  flex-direction:column;
+  border:2px solid rgb(36 36 36);
+  border-radius:8px;
+  overflow:hidden;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  gap:2px;
+  background:rgb(36 36 36);
+  min-width:300px
+}
+.unit-page-upgrades-container {
+  display:flex;
+  flex-direction:column;
+  gap:5px
+}
+.unit-page-upgrade-container {
+  display:flex;
+  flex-direction:column;
+  background:rgb(16 16 16);
+  box-shadow:inset 0 0 0px 2px rgb(36 36 36);
+  border-radius:8px
+}
+.unit-page-upgrade {
+  display:flex;
+  padding:6px 10px;
+  border:2px solid transparent;
+  border-radius:8px;
+  background:linear-gradient(180deg,rgb(0 0 0 / 90%),rgb(0 0 0 / 70%)) padding-box,linear-gradient(180deg,rgb(0 0 0 / 40%),transparent) border-box,var(--background-type,var(--bg,linear-gradient(90deg,gray,gray))) border-box;
+  gap:8px 20px;
+  line-height:1;
+  align-items:center;
+  font-weight:800;
+  flex-wrap:wrap;
+  font-size:17px;
+  --deg:90deg
+}
+.up-upgrade-dicolor {
+  --background-type:linear-gradient(90deg,var(--color-1,var(--color-2)),var(--color-2,var(--color-3)))
+}
+.up-upgrade-tricolor {
+  --background-type:linear-gradient(90deg,var(--color-1),var(--color-2),var(--color-3))
+}
+.unit-page-upgrade-cost {
+  font-weight:800;
+  background:linear-gradient(180deg,yellow,orange);
+  color:transparent;
+  -webkit-background-clip:text;
+  margin-right:10%
+}
+.unit-page-upgrade-stat-container {
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  flex-grow:1
+}
+.unit-page-upgrade-stats {
+  display:flex;
+  gap:5px;
+  width:68%;
+  flex-wrap:wrap;
+  flex-grow:1
+}
+.up-upg-stats-dps {
+  width:30%;
+  margin-left:0;
+  flex-grow:1;
+  text-wrap:wrap;
+  min-width:123px
+}
+.unit-page-upgrade-stat {
+  display:flex;
+  border:2px solid transparent;
+  border-radius:4px;
+  background:linear-gradient(180deg,rgb(0 0 0 /100%),rgb(0 0 0 /80%)) padding-box,var(--bg,linear-gradient(gray)) border-box;
+  line-height:1;
+  padding:3px 5px;
+  align-items:center;
+  gap:5px;
+  font-weight:600;
+  font-size:16px;
+  flex-grow:1;
+  justify-content:space-between;
+  color:color-mix(in oklab,var(--color,gray),white 90%);
+  min-width:fit-content;
+  --deg:180deg
+}
+.unit-page-upgrade-additions {
+  display:flex;
+  padding:8px;
+  gap:8px;
+  flex-direction:column;
+  line-height:1;
+  font-size:16px
+}
+.unit-page-ability-header {
+  flex-direction:column;
+  background:url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png),rgb(19 19 19);
+  box-shadow:inset 0 0 0 2px rgb(36 36 36);
+  display:flex;
+  border-radius:16px;
+  align-items:center
+}
+:root {
+  --wh-accent-bright:#fff;
+  --wh-accent-soft:rgb(36 36 36);
+  --wh-panel:#020202;
+  --wh-panel-2:rgb(25 25 25);
+  --wh-border:rgb(41 41 41);
+  --wh-text:#e4eef4;
+  --wh-text-muted:#97999d
+}
+.wh-stack {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  min-width:0 
+}
+.wh-panel {
+  padding:12px 12px;
+  background:var(--wh-panel);
+  border:2px solid var(--wh-border);
+  border-radius:8px
+}
+.wh-panel-title {
+  margin-top:0;
+  color:var(--wh-text);
+  font-size:1.25em;
+  font-weight:600;
+  letter-spacing:0.3px;
+  text-align:left 
+}
+.wh-split {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  align-items:stretch;
+  margin-bottom:8px
+}
+.wh-split > * {
+  min-width:0 
+}
+.wh-button-row {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px
+}
+@media (max-width:800px) {
+  .wh-split {
+    grid-template-columns:1fr 
+  }
+}
+.wh-scroll-panel {
+  padding:0;
+  max-height:430px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+  scrollbar-color:var(--wh-accent-soft) transparent 
+}
+.wh-scroll-panel > .wh-panel-title {
+  position:sticky;
+  top:0;
+  z-index:5;
+  margin:0;
+  padding:16px 18px 10px;
+  background:linear-gradient(to bottom,var(--wh-panel) 78%,transparent) 
+}
+.wh-scroll-body {
+  padding:2px 18px 16px 
+}
+.wh-header-logo {
+  position:relative;
+  width:100%;
+  max-width:500px;
+  height:fit-content
+}
+.wh-header-logo img {
+  vertical-align:middle;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  user-select:none
+}
+.wh-header {
+  background:linear-gradient(90deg,black 350px,rgb(0 0 0 /50%) 1200px),url(https://static.wikitide.net/animeexpeditionswiki/8/81/Expeditions_Cursed_Student_Splash_Art.webp);
+  border:2px solid var(--wh-border);
+  border-radius:8px;
+  background-size:100%,1300px;
+  background-position-x:100%,10em;
+  background-position-y:100%,520px;
+  box-shadow:0 0 20px 0px black inset
+}
+.wh-blurb {
+  font-family:"Montserrat",sans-serif;
+  margin:0;
+  color:var(--wh-text);
+  padding:8px 16px;
+  font-weight:600;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill
+}
+.wh-stats {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px
+}
+.wh-stat {
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:12px;
+  flex:1 1 60px;
+  padding:8px 14px;
+  border-radius:8px;
+  background:linear-gradient(180deg,rgb(0 0 0 / 80%),rgb(0 0 0 / 50%)) padding-box,linear-gradient(0deg,rgb(124 124 124),rgb(81 81 81)) border-box;
+  border:2px solid transparent;
+  overflow:hidden;
+  -webkit-text-stroke:5px black;
+  paint-order:stroke fill
+}
+.wh-stat-icon {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  width:42px;
+  height:42px;
+  border-radius:9px
+}
+.wh-stat-svg img {
+  filter:invert(1) brightness(100%);
+  opacity:1;
+  transition:transform 0.2s ease,opacity 0.2s ease
+}
+.wh-stat-text {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  line-height:1.4;
+  white-space:nowrap
+}
+.wh-stat-number {
+  font-family:"Fredoka",sans-serif;
+  font-size:1.2em;
+  font-weight:600;
+  letter-spacing:0.5px;
+  color:var(--wh-text)
+}
+.wh-stat-label {
+  font-family:"Montserrat",sans-serif;
+  text-transform:uppercase;
+  font-size:0.8em;
+  letter-spacing:0.4px;
+  color:var(--wh-accent-bright);
+  font-weight:700;
+  -webkit-text-stroke:3px black
+}
+@media (max-width:600px) {
+  .wh-stats {
+    flex-direction:column
+  }
+}
+.wh-cta {
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-self:stretch;
+  padding:3px;
+  border-radius:12px;
+  border:4px solid transparent;
+  background:linear-gradient(90deg,color-mix(var(--color-1),rgb(0 0 0) 85%) 50%,rgb(0 0 0 / 50%)) content-box,repeating-linear-gradient(90deg,var(--color-1) 30%,var(--color-2) 60%,var(--color-1) 100%) content-box,url(https://static.wikitide.net/animeexpeditionswiki/4/48/Unit_List_Stylized_Overlay.png) content-box,linear-gradient(#6c6c6c) content-box,linear-gradient(rgb(0 0 0 / 100%)) padding-box,repeating-linear-gradient(90deg,var(--color-1) 30%,var(--color-2) 60%,var(--color-1) 100%) border-box;
+  font-size:23px;
+  font-weight:600;
+  transition:transform .2s;
+  overflow:hidden;
+  height:60px;
+  background-blend-mode:normal,multiply,overlay,normal,normal,normal;
+  flex-grow:1;
+  min-width:200px;
+  font-family:'Fredoka';
+  -webkit-text-stroke:8px black;
+  paint-order:stroke fill
+}
+.wh-cta a,
+.wh-cta a:hover,
+.wh-cta a:active,
+.wh-cta a:visited {
+  color:#ffffff !important;
+  text-decoration:none 
+}
+.wh-cta a::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1
+}
+.wh-cta:hover {
+  box-shadow:0 0 0px 2px black,0 0 0px 4px white;
+  transform:scale(1.01)
+}
+.wh-cta-codes {
+  --color-1:#00ffe3;
+  --color-2:#39aa58
+}
+.wh-cta-tl {
+  --color-1:#9e6bff;
+  --color-2:#f0aad1
+}
+.wh-nav-group {
+  display:grid;
+  grid-template-columns:92px minmax(0,1fr);
+  gap:5px;
+  align-items:stretch;
+  margin-bottom:4px
+}
+.wh-nav-group:last-child {
+  margin-bottom:0
+}
+.wh-nav-label {
+  display:flex;
+  align-items:center;
+  padding-right:10px;
+  font-size:0.9em;
+  font-weight:700;
+  color:var(--wh-accent-bright);
+  line-height:1.25;
+  justify-content:flex-end
+}
+.wh-nav-row {
+  display:grid;
+  gap:5px
+}
+.wh-nav-card-text a:visited {
+  all:unset;
+  !important
+}
+@media (max-width:800px) {
+  .wh-nav-group {
+    grid-template-columns:1fr;
+    gap:5px
+  }
+  .wh-nav-label {
+    justify-content:flex-start;
+    text-align:left;
+    padding-right:0;
+    padding-bottom:3px;
+    border-bottom:1px solid var(--wh-accent-soft)
+  }
+  .wh-nav-row {
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    font-size:10px !important
+  }
+}
+.wh-nav-card {
+  border-radius:6px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  min-height:45px;
+  text-align:center;
+  gap:5px;
+  background:linear-gradient(1deg,rgb(0 0 0 / 60%),rgb(0 0 0 / 00%)) content-box,linear-gradient(0deg,rgb(132 73 255),rgb(189 89 255)) padding-box,linear-gradient(#000000) border-box;
+  transition:transform 0.2s cubic-bezier(0.22,1,0.36,1),background 0.2s ease !important;
+  border:2px solid transparent;
+  padding:2px
+}
+.wh-nav-card .mw-heading {
+  margin-top:0 !important
+}
+.wh-nav-icon {
+  display:inline-flex;
+  position:relative;
+  vertical-align:middle;
+  gap:2px;
+  line-height:1.1 !important;
+  top:-1px
+}
+.wh-nav-card-text {
+  -webkit-text-stroke:3px black;
+  paint-order:stroke fill;
+  font-size:16px
+}
+.wh-nav-card-text a {
+  color:var(--wh-accent-bright) !important;
+  text-decoration:none;
+  font-weight:550;
+  font-family:"Fredoka",sans-serif
+}
+.wh-nav-card-text a::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1
+}
+.wh-nav-card:hover {
+  transform:scale(1.03);
+  background:linear-gradient(1deg,rgb(0 0 0 / 80%),rgb(0 0 0 / 40%)) content-box,linear-gradient(0deg,rgb(132 73 255),rgb(189 89 255)) padding-box,linear-gradient(#000000) border-box;
+  box-shadow:0 0 0px 2px #e3a8ff;
+  z-index:2
+}
+.wh-units-row {
+  display:flex;
+  flex-direction:row;
+  align-items:stretch;
+  gap:8px;
+  padding:10px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding-bottom:8px;
+  scrollbar-width:thin;
+  scrollbar-color:var(--wh-accent-soft) transparent
+}
+.wh-unit-card {
+  position:relative;
+  flex:0 0 auto;
+  width:140px;
+  height:270px;
+  border-radius:10px;
+  overflow:hidden;
+  border:2px solid transparent;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  text-decoration:none;
+  transition:transform 0.2s cubic-bezier(0.22,1,0.36,1),border-color 0.2s ease,box-shadow 0.2s ease;
+  background:linear-gradient(0deg,#000000,rgb(0 0 0 /50%)) padding-box,var(--bg) border-box;
+  --deg:0deg;
+  box-shadow:0 0 0px 2px black,0 0 0px 4px var(--wh-card-border,transparent);
+  background-size:100px 140%
+}
+.wh-unit-card img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center
+}
+.wh-unit-card:hover {
+  --wh-card-border:#e4e4e4;
+  transform:scale(1.02);
+  z-index:3
+}
+.wh-unit-text {
+  z-index:3;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-weight:800;
+  line-height:1.2;
+  height:30%;
+  justify-content:end;
+  padding:5px 0px
+}
+.wh-unit-text::after {
+  content:"";
+  position:absolute;
+  top:-187px;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1;
+  background:var(--bg);
+  mask-image:linear-gradient(180deg,transparent 60%,black);
+  background-size:100px 140%
+}
+.wh-unit-name {
+  font-size:22px;
+  color:white;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  text-align:center
+}
+.wh-unit-name a,
+.wh-unit-name a:hover,
+.wh-unit-name a:visited,
+.wh-unit-name a:active {
+  color:#fff !important;
+  text-decoration:none
+}
+.wh-media {
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch
+}
+.wh-media-row {
+  display:flex;
+  gap:8px;
+  padding:5px 5px 8px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  scrollbar-width:thin;
+  scrollbar-color:var(--wh-accent-soft) transparent;
+  height:300px
+}
+.wh-trailer-container {
+  flex:0 0 auto;
+  max-width:450px;
+  border-radius:11px;
+  overflow:hidden;
+  border:2px solid var(--wh-border);
+  display:flex;
+  flex-direction:column
+}
+.wh-trailer-img {
+  width:100%;
+  overflow:hidden;
+  background-image:url(https://animeexpeditions.miraheze.org/wiki/Special:FilePath/Release_Anime_Expeditions_Thumbnail.webp);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:var(--wh-panel-2);
+  transition:transform .25s,filter .25s
+}
+.wh-trailer-img:hover {
+  transform:scale(1.03);
+  filter:brightness(1.05)
+}
+.wh-trailer-img:active {
+  transform:scale(1.05);
+  filter:brightness(1.3);
+  transition:transform .1s,filter .1s
+}
+.wh-trailer-img a {
+  position:relative;
+  width:100%;
+  height:100%;
+  display:block
+}
+.wh-trailer-img a::after {
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  left:0;
+  top:0;
+  background-image:url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 185 130' width='185' height='130'%3E%3Cstyle%3E.a%7Bopacity:.7;fill:%23f00%7D.b%7Bfill:%23fff%7D%3C/style%3E%3Cpath class='a' d='m180.8 20.2c-2.1-8-8.3-14.2-16.3-16.3-14.4-3.9-72.2-3.9-72.2-3.9 0 0-57.7 0-72.1 3.9-8 2.1-14.2 8.3-16.3 16.3-3.9 14.4-3.9 44.4-3.9 44.4 0 0 0 30.1 3.9 44.5 2.1 8 8.3 14.2 16.3 16.3 14.4 3.9 72.1 3.9 72.1 3.9 0 0 57.8 0 72.2-3.9 8-2.1 14.2-8.3 16.3-16.3 3.9-14.4 3.9-44.5 3.9-44.5 0 0 0-30-3.9-44.4z'/%3E%3Cpath class='b' d='m73.9 92.4l47.9-27.8-47.9-27.7z'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-size:50px;
+  background-position:center;
+  transition:transform .25s cubic-bezier(.36,.07,.32,1.08),opacity .25s cubic-bezier(.36,.07,.32,1.08);
+  opacity:0;
+  pointer-events:none;
+  filter:grayscale(1) contrast(40)
+}
+.wh-trailer-img:hover a::after {
+  transform:scale(1.3);
+  opacity:1
+}
+.wh-trailer-img a:active::after {
+  transform:scale(1.4);
+  transition:transform .1s
+}
+.wh-trailer-title {
+  margin:8px 0 0 0;
+  font-size:1.1rem;
+  font-family:"Fredoka",sans-serif;
+  font-weight:570;
+  line-height:1.2;
+  text-align:center;
+  color:var(--wh-text);
+  padding:0 8px 8px
+}
+.wh-trailer-side {
+  flex:0 0 auto
+}
+.wh-trailer-grid {
+  display:grid;
+  grid-template-rows:1fr 1fr;
+  grid-auto-flow:column;
+  grid-auto-columns:140px;
+  gap:8px;
+  height:100%
+}
+.wh-trailer-module {
+  position:relative;
+  cursor:pointer;
+  border:2px solid var(--wh-border);
+  border-radius:8px;
+  padding:5px 5px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  gap:6px;
+  min-height:100px;
+  transition:transform 0.15s ease,filter 0.15s ease,border-color 0.15s ease
+}
+.wh-trailer-module:hover {
+  filter:brightness(1.2);
+  transform:scale(1.03);
+  border-color:var(--wh-accent-bright)
+}
+.wh-trailer-module:active {
+  transform:scale(1.01);
+  filter:brightness(1.35);
+  transition:transform 0.1s,filter 0.1s
+}
+.wh-trailer-module-link {
+  position:absolute;
+  inset:0;
+  z-index:1;
+  display:block
+}
+.wh-trailer-icon {
+  line-height:1
+}
+.wh-trailer-text {
+  margin:0;
+  font-size:0.85em !important;
+  color:var(--wh-text-muted)
+}
+.wh-events-grid {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:10px;
+  min-width:0
+}
+.wh-event-card {
+  position:relative;
+  width:100%;
+  min-width:0;
+  border-radius:10px;
+  overflow:hidden;
+  border:2px solid var(--wh-border);
+  box-sizing:border-box;
+  cursor:pointer;
+  font-family:"Montserrat",sans-serif;
+  background:linear-gradient(90deg,rgb(var(--raw-color,46 159 214) / 0.55) 4px,transparent 4px),#000000;
+  transition:transform 0.15s ease,filter 0.15s ease,border-color 0.15s ease,box-shadow 0.15s ease
+}
+.wh-event-card:hover {
+  filter:brightness(1.2);
+  transform:scale(1.01);
+  outline:1px solid white
+}
+.wh-event-card-link {
+  position:absolute;
+  inset:0;
+  z-index:2;
+  display:block
+}
+.wh-event-inner {
+  position:relative;
+  inset:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:10px 16px;
+  z-index:1;
+  min-width:0
+}
+.wh-event-name {
+  font-size:18px;
+  font-weight:640;
+  font-family:"Fredoka",sans-serif !important;
+  line-height:1.15;
+  margin-bottom:4px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  background:var(--bg,linear-gradient(135deg,#2e9fd6,#1a6790));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text
+}
+.wh-event-name a {
+  background:inherit;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-decoration:none
+}
+.wh-event-card .live-timer-inline {
+  font-size:13px;
+  font-weight:600;
+  font-family:"Montserrat",sans-serif;
+  color:#b3b3b3;
+  line-height:1.3;
+  -webkit-text-fill-color:#b3b3b3
+}
+.wh-event-card:has(.timer-active) {
+  border-color:#1e6239
+}
+.wh-event-card:has(.timer-active) .live-timer-inline {
+  color:#3dba6f;
+  -webkit-text-fill-color:#3dba6f
+}
+.wh-event-card:has(.timer-upcoming) {
+  border-color:var(--wh-accent-soft)
+}
+.wh-event-card:has(.timer-upcoming) .live-timer-inline {
+  color:var(--wh-accent-soft);
+  -webkit-text-fill-color:#a8a8a8
+}
+.wh-event-card:has(.timer-ended) {
+  border-color:#3a3a3a;
+  box-shadow:none;
+  opacity:0.5
+}
+.wh-news-item {
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--wh-border) 
+}
+.wh-news-item:last-child {
+  margin-bottom:0;
+  padding-bottom:0;
+  border-bottom:none 
+}
+.wh-news-date {
+  font-size:0.9em;
+  color:var(--wh-accent-bright);
+  font-weight:550;
+  display:block
+}
+.wh-news-item h3 {
+  margin:0;
+  border:none;
+  font-size:1em 
+}
+.wh-news-title {
+  font-weight:550 !important 
+}
+.wh-news-item h3 a {
+  color:#ffffff !important;
+  text-decoration:none;
+  transition:color 0.2s ease 
+}
+.wh-news-item h3 a:hover {
+  color:var(--wh-accent-bright) !important
+}
+.wh-news-p {
+  margin:0;
+  font-size:0.9em !important;
+  color:var(--wh-text) 
+}
+.wh-socials-panel {
+  display:flex;
+  justify-content:center;
+  padding:18px 22px
+}
+.wh-socials {
+  display:flex;
+  justify-content:center;
+  align-items:stretch;
+  gap:14px;
+  flex-wrap:wrap;
+  width:100%
+}
+.wh-social {
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-self:stretch;
+  padding:3px;
+  border-radius:12px;
+  border:4px solid transparent;
+  background:linear-gradient(90deg,color-mix(var(--color-1),rgb(0 0 0) 85%) 50%,rgb(0 0 0 / 50%)) content-box,repeating-linear-gradient(90deg,var(--color-1) 30%,var(--color-2) 60%,var(--color-1) 100%) content-box,url(https://static.wikitide.net/animeexpeditionswiki/4/48/Unit_List_Stylized_Overlay.png) content-box,linear-gradient(#6c6c6c) content-box,linear-gradient(rgb(0 0 0 / 100%)) padding-box,repeating-linear-gradient(90deg,var(--color-1) 30%,var(--color-2) 60%,var(--color-1) 100%) border-box;
+  font-size:23px;
+  font-weight:600;
+  transition:transform .2s;
+  overflow:hidden;
+  height:60px;
+  background-blend-mode:normal,multiply,overlay,normal,normal,normal;
+  flex:1 1 200px;
+  max-width:300px;
+  font-family:'Fredoka';
+  -webkit-text-stroke:8px black;
+  paint-order:stroke fill;
+  gap:5px;
+  color:white
+}
+.wh-social:hover {
+  box-shadow:0 0 0px 2px black,0 0 0px 4px white;
+  transform:scale(1.01)
+}
+.wh-social a::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1
+}
+.wh-social--discord {
+  --color-1:#2b41ff;
+  --color-2:#00003b
+}
+.wh-social--roblox {
+  --color-1:#434571;
+  --color-2:#f7b7ff
+}
+.wh-social--youtube {
+  --color-1:#ff2b2b;
+  --color-2:#ff91cf
+}
+.stretched-link {
+  z-index:99;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0
+}
+.stretched-link a {
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  position:absolute;
+  color:transparent
+}
+.absolute-image-modifier {
+  position:absolute;
+  width:var(--width);
+  height:fit-content;
+  left:var(--left);
+  top:var(--top)
+}
+.absolute-image-modifier img {
+  vertical-align:middle;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  user-select:none
+}
+.mw-parser-output .code-grid-container {
+  display:grid !important;
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:24px !important;
+  margin:24px 0 !important;
+  padding:30px !important;
+  background-color:#050b14 !important;
+  background-image:linear-gradient(rgba(0,212,255,0.01) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,255,0.01) 1px,transparent 1px) !important;
+  background-size:24px 24px !important;
+  border-radius:14px !important;
+  border:1px solid #102a45 !important;
+  box-sizing:border-box !important
+}
+.mw-parser-output .code-grid-container p,
+.mw-parser-output .code-grid-container br {
+  display:none !important;
+  margin:0 !important;
+  padding:0 !important
+}
+.mw-parser-output .code-card {
+  position:relative !important;
+  background-color:#050b14 !important;
+  border:2px solid #15355a !important;
+  border-radius:14px !important;
+  padding:44px 22px 24px 22px !important;
+  width:100% !important;
+  min-width:280px !important;
+  display:flex !important;
+  flex-direction:column !important;
+  box-shadow:0 12px 32px rgba(0,0,0,0.6) !important;
+  box-sizing:border-box !important;
+  margin:0 !important;
+  overflow:hidden !important;
+  z-index:1 !important;
+  transform:translate(0)
+}
+.mw-parser-output .code-card .code-card-bg {
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  left:0 !important;
+  right:0 !important;
+  z-index:0 !important;
+  border-radius:12px !important;
+  pointer-events:none !important
+}
+.mw-parser-output .code-card.code-active .code-card-bg {
+  background:linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 30%)),url(https://static.wikitide.net/animeexpeditionswiki/e/e6/Checkered_Transluscent.png),linear-gradient(rgb(0 0 0 / 60%),rgb(0 0 0 / 30%)),url(https://static.wikitide.net/animeexpeditionswiki/0/0d/Battlepass_Season_Background_Black.png),linear-gradient(180deg,var(--color,#00d4ff) 0%,rgba(0,0,0,0.4) 150%) !important;
+  background-size:cover,6px,cover,150%,cover !important;
+  background-position:center,center,center,-56px,center !important
+}
+.mw-parser-output .code-card.code-expired .code-card-bg {
+  background:linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 30%)),url(https://static.wikitide.net/animeexpeditionswiki/e/e6/Checkered_Transluscent.png),linear-gradient(rgb(0 0 0 / 60%),rgb(0 0 0 / 30%)),url(https://static.wikitide.net/animeexpeditionswiki/0/0d/Battlepass_Season_Background_Black.png),linear-gradient(180deg,var(--color,#00d4ff) 0%,rgba(0,0,0,0.4) 150%) !important;
+  background-size:cover,6px,cover,150%,cover !important;
+  background-position:center,center,center,-56px,center !important
+}
+.mw-parser-output .code-badge,
+.mw-parser-output .code-input-section,
+.mw-parser-output .rewards-items,
+.mw-parser-output .code-footer,
+.mw-parser-output .section-divider {
+  position:relative !important;
+  z-index:2 !important
+}
+.mw-parser-output .code-card.code-active {
+  border:2px solid var(--border-color,#00d4ff) !important;
+  box-shadow:0 0 15px rgba(0,212,255,0.15) !important
+}
+.mw-parser-output .code-card.code-expired {
+  border:2px solid #4a1a1a !important;
+  opacity:0.75 !important
+}
+.mw-parser-output .code-badge {
+  position:absolute !important;
+  top:0 !important;
+  right:0 !important;
+  font-size:11px !important;
+  font-weight:800 !important;
+  font-style:italic !important;
+  letter-spacing:0.5px !important;
+  line-height:1.2 !important;
+  padding:6px 16px 7px 16px !important;
+  border-bottom-left-radius:10px !important
+}
+.mw-parser-output .code-active .code-badge {
+  color:#050b14 !important;
+  background:var(--color,#00d4ff) !important
+}
+.mw-parser-output .code-expired .code-badge {
+  color:#ffffff !important;
+  background:#5a1c1c !important;
+  border-left:1px solid #ff4b4b !important;
+  border-bottom:1px solid #ff4b4b !important
+}
+.mw-parser-output .code-input-section {
+  display:flex !important;
+  width:100% !important;
+  gap:12px !important;
+  margin:4px 0 10px 0 !important;
+  align-items:stretch !important;
+  box-sizing:border-box !important
+}
+.mw-parser-output .code-text-box {
+  flex:1 !important;
+  border:1px dashed #1e4572 !important;
+  background:rgba(5,11,20,0.6) !important;
+  border-radius:8px !important;
+  padding:10px 14px !important;
+  color:#ffffff !important;
+  font-family:monospace !important;
+  font-size:15px !important;
+  font-weight:bold !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important
+}
+.mw-parser-output .code-card .copy-btn {
+  background:linear-gradient(180deg,#00f0ff 0%,#007ba3 100%) !important;
+  color:#ffffff !important;
+  font-family:'Fredoka',sans-serif !important;
+  font-size:15px !important;
+  font-weight:800 !important;
+  padding:6px 20px !important;
+  border:2px solid #005573 !important;
+  border-radius:8px !important;
+  cursor:pointer !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-transform:none !important;
+  -webkit-text-stroke:3px #000000 !important;
+  paint-order:stroke fill !important;
+  box-shadow:0px 4px 0px #00364d,0px 6px 10px rgba(0,0,0,0.5) !important;
+  transition:all 0.05s ease-in-out !important
+}
+.mw-parser-output .code-card .copy-btn:hover {
+  background:linear-gradient(180deg,#33f3ff 0%,#0091bf 100%) !important;
+  box-shadow:0px 4px 0px #00364d,0px 8px 14px rgba(0,212,255,0.2) !important
+}
+.mw-parser-output .code-card .copy-btn:active {
+  transform:translateY(3px) !important;
+  box-shadow:0px 1px 0px #00364d,0px 2px 4px rgba(0,0,0,0.5) !important
+}
+.mw-parser-output .rewards-items {
+  display:grid !important;
+  grid-template-columns:repeat(auto-fit,80px) !important;
+  justify-content:center !important;
+  max-width:270px !important;
+  gap:15px !important;
+  margin:-6px auto auto auto !important;
+  padding:0 0 24px 0 !important;
+  width:100% !important
+}
+.mw-parser-output .code-footer {
+  display:flex !important;
+  justify-content:flex-end !important;
+  align-items:flex-end !important;
+  width:100% !important;
+  margin-top:auto !important;
+  box-sizing:border-box !important
+}
+.mw-parser-output .code-level-badge {
+  position:absolute !important;
+  bottom:-25px !important;
+  left:-25px !important;
+  font-size:11px !important;
+  font-weight:800 !important;
+  font-style:italic !important;
+  letter-spacing:0.5px !important;
+  line-height:1.2 !important;
+  text-transform:none !important;
+  padding:6px 16px 7px 16px !important;
+  border-top-right-radius:10px !important;
+  border-bottom-left-radius:12px !important
+}
+.mw-parser-output .code-active .code-level-badge {
+  border-right:1px solid var(--border-color,#00d4ff) !important;
+  border-top:1px solid var(--border-color,#00d4ff) !important;
+  color:var(--color,#00d4ff) !important;
+  background:rgba(0,212,255,0.15) !important;
+  backdrop-filter:blur(2px) !important
+}
+.mw-parser-output .code-expired .code-level-badge {
+  border-right:1px solid #ff4b4b !important;
+  border-top:1px solid #ff4b4b !important;
+  color:#ff4b4b !important;
+  background:rgba(255,75,75,0.15) !important
+}
+.mw-parser-output .code-footer-status-block {
+  text-align:right !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-end !important;
+  gap:2px !important
+}
+.mw-parser-output .code-status-text {
+  font-size:12px !important;
+  font-weight:700 !important;
+  line-height:1.2 !important
+}
+.mw-parser-output .timer-text-container {
+  font-size:11px !important;
+  line-height:1.4 !important;
+  color:#8da2bb !important
+}
+.mw-parser-output .timer-text-container span,
+.mw-parser-output .timer-text-container div {
+  display:block !important;
+  text-align:right !important;
+  white-space:nowrap !important
+}
+.mw-parser-output .code-active .timer-text-container span:first-child {
+  color:var(--color,#00d4ff) !important;
+  font-weight:600 !important
+}
+.mw-parser-output .code-expired .timer-text-container span:first-child {
+  color:#ff4b4b !important;
+  font-weight:600 !important
+}
+@media (max-width:1100px) {
+  .mw-parser-output .code-grid-container {
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important
+  }
+}
+@media (max-width:700px) {
+  .mw-parser-output .code-grid-container {
+    grid-template-columns:repeat(1,minmax(0,1fr)) !important
+  }
+}
+.mw-parser-output .section-divider {
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:100% !important;
+  margin:14px 0 !important;
+  background:transparent !important;
+  border:none !important
+}
+.mw-parser-output .section-divider::before,
+.mw-parser-output .section-divider::after {
+  content:"" !important;
+  flex-grow:1 !important;
+  height:var(--line-weight,2px) !important;
+  background-color:var(--line-color,#00FFFF) !important;
+  display:block !important;
+  min-width:15px !important;
+  box-shadow:0 0 calc(var(--line-glow,0px) * 0.5) var(--line-color),0 0 var(--line-glow,0px) var(--line-color) !important
+}
+.mw-parser-output .section-divider-label {
+  padding:0 12px !important;
+  font-weight:700 !important;
+  white-space:nowrap !important;
+  font-size:11px !important;
+  letter-spacing:0.5px !important;
+  color:var(--text-color,#71717a) !important;
+  text-transform:var(--text-transform,none) !important
+}
+.mw-parser-output .section-divider:not(:has(.section-divider-label))::before {
+  margin-right:0 !important
+}
+.mw-parser-output .section-divider:not(:has(.section-divider-label))::after {
+  display:none !important
+}
+.shop-card {
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  min-width:190px;
+  max-width:210px;
+  min-height:285px;
+  border-radius:10px;
+  overflow:hidden;
+  line-height:1.2;
+  padding:16px 8px 0;
+  box-sizing:border-box
+}
+.shop-card-bg {
+  position:absolute;
+  inset:0;
+  z-index:0;
+  border-radius:10px;
+  background:linear-gradient(90deg,transparent,rgb(0 0 0 /100%),transparent) padding-box,linear-gradient(rgb(0 0 0 /60%),rgb(0 0 0 /0%)) padding-box,url(https://static.wikitide.net/animeexpeditionswiki/e/e6/Checkered_Transluscent.png) padding-box,linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 30%)) border-box,url(https://static.wikitide.net/animeexpeditionswiki/0/0d/Battlepass_Season_Background_Black.png) padding-box,var(--bg) border-box;
+  background-size:cover,cover,6px,cover,150%,cover;
+  background-position:center,center,center,center,-56px,center;
+  --deg:180deg;
+  border:2px solid transparent
+}
+.shop-card-bg::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:10px;
+  pointer-events:none;
+  background:var(--bg);
+  opacity:0.2;
+  mask-image:linear-gradient(0deg,black,transparent)
+}
+.shop-card-item,
+.shop-card-title,
+.shop-card-desc,
+.shop-card-buytext {
+  position:relative;
+  z-index:1
+}
+.shop-card-title {
+  font-weight:700;
+  font-size:22px;
+  font-family:'Fredoka';
+  margin-top:4px;
+  background:linear-gradient(90deg,transparent,black,transparent);
+  width:100%
+}
+.shop-card-title-text {
+  background:var(--bg);
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  text-shadow:none
+}
+.shop-card-desc {
+  color:#808080;
+  font-weight:700;
+  font-size:14px;
+  font-family:'Montserrat';
+  padding:4px 4px 12px;
+  text-overflow:ellipsis;
+  max-height:80px;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  overflow:hidden;
+  mask-image:linear-gradient(black 70%,transparent 92%);
+  height:80px
+}
+.shop-card-buytext {
+  align-self:stretch;
+  margin:auto 0 8px;
+  background:linear-gradient(180deg,rgb(0 0 0 /0%),rgb(0 0 0 /60%)) padding-box,var(--bg) border-box;
+  border-radius:8px;
+  color:white;
+  font-weight:600;
+  font-size:20px;
+  font-family:'Fredoka';
+  padding:0px 6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:2px solid transparent;
+  -webkit-text-stroke:5px black;
+  paint-order:stroke fill;
+  box-shadow:0 0 0px 2px black
+}
+.shop-card-cost {
+  color:white
+}
+.banner-card {
+  border-radius:12px;
+  background:radial-gradient(ellipse 100% 130% at bottom,transparent 59%,rgb(0 0 0 / 40%) 60%),linear-gradient(180deg,var(--color),transparent),linear-gradient(180deg,var(--color),color-mix(in oklab,var(--color),black 55%));
+  background-size:100%,100%,100%;
+  background-position:center,center,center;
+  width:80%;
+  min-width:300px;
+  margin-bottom:15px;
+  overflow:hidden;
+  position:relative;
+  height:140px;
+  transition:transform 0.3s,filter 0.3s
+}
+.banner-card:hover {
+  transform:scale(1.01);
+  filter:brightness(1.15)
+}
+.banner-card-img {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:0;
+  overflow:hidden;
+  border-radius:12px
+}
+.banner-card-img img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:right center;
+  filter:brightness(0.45)
+}
+.banner-card-container {
+  display:flex;
+  width:100%;
+  height:100%
+}
+.banner-card::before {
+  content:"";
+  border-radius:12px;
+  border:3px solid transparent;
+  display:block;
+  position:absolute;
+  z-index:2;
+  box-sizing:border-box;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:var(--bg);
+  -webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  pointer-events:none
+}
+.banner-card-container::after {
+  content:"";
+  background:linear-gradient(90deg,rgb(0 0 0 / 90%) 0%,rgb(0 0 0 / 90%) 12%,transparent 30%);
+  width:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  pointer-events:none
+}
+.banner-card-text {
+  display:flex;
+  flex-direction:column;
+  z-index:2;
+  justify-content:center;
+  padding:0 20px;
+  line-height:1.2;
+  height:100%;
+  position:relative
+}
+.banner-card-title {
+  font-size:24px;
+  font-weight:640;
+  color:var(--color);
+  -webkit-text-stroke:6px black;
+  paint-order:stroke fill;
+  font-family:'Fredoka' !important
+}
+.banner-card-desc {
+  font-size:17px;
+  color:#ccc;
+  font-weight:600;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  font-family:'Montserrat',sans-serif !important
+}
+.trait-container {
+  display:flex;
+  border-radius:12px;
+  border:2px solid transparent;
+  background:linear-gradient(90deg,rgb(0 0 0 /70%),rgb(0 0 0 /40%) 50%) border-box,linear-gradient(90deg,rgb(0 0 0 / 80%),rgb(0 0 0 / 80%)) padding-box,var(--bg) border-box;
+  padding:12px 6px;
+  flex-grow:1;
+  align-items:center;
+  line-height:1.5
+}
+.trait-icon-container {
+  position:relative;
+  display:flex;
+  align-items:center;
+  width:130px;
+  padding:10px
+}
+.trait-icon-odds {
+  position:absolute;
+  color:white;
+  font-family:'Montserrat';
+  font-weight:700;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  left:50%;
+  font-size:20px;
+  z-index:2;
+  bottom:-5px;
+  transform:translate(-50%)
+}
+.trait-icon-glow {
+  position:absolute;
+  background:var(--bg);
+  mask-image:radial-gradient(ellipse at center,rgb(0 0 0 /50%),transparent 50%);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0
+}
+.trait-name-container {
+  font-family:'Fredoka';
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr;
+  width:fit-content
+}
+.trait-name-outline {
+  z-index:1;
+  grid-row:1;
+  grid-column:1;
+  font-size:22px;
+  font-weight:700;
+  -webkit-text-stroke:6px black;
+  paint-order:stroke fill;
+  color:black;
+  letter-spacing:-1%
+}
+.trait-name-glow {
+  grid-row:1;
+  grid-column:1;
+  background:var(--bg);
+  mask-image:radial-gradient(ellipse at center,rgb(0 0 0 /50%) 3%,rgb(0 0 0 /10%) 30%,transparent 55%);
+  top:-25%;
+  left:50%;
+  z-index:0;
+  width:250%;
+  height:150%;
+  position:relative;
+  transform:translate(-50%)
+}
+.trait-properties {
+  color:rgb(180 180 180);
+  font-size:15px;
+  font-weight:600;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill
+}
+.trait-pity {
+  font-weight:800;
+  color:white;
+  margin-left:auto;
+  -webkit-text-stroke:4px black;
+  paint-order:stroke fill;
+  font-size:16px
+}
+.ae-stage-selector {
+  --opacity:1;
+  width:100%;
+  max-width:1400px;
+  margin:1rem auto;
+  color:#fff;
+  line-height:1.15
+}
+.ae-stage-selector *,
+.ae-stage-selector *::before,
+.ae-stage-selector *::after {
+  box-sizing:border-box
+}
+.ae-stage-shell {
+  display:grid;
+  grid-template-columns:88px minmax(0,1fr);
+  min-height:650px;
+  overflow:hidden;
+  background:rgb(1 1 1);
+  border:2px solid rgb(0 153 255);
+  border-radius:6px;
+  box-shadow:0 0 10px rgb(0 0 0 / 70%)
+}
+.ae-act-selector {
+  position:relative;
+  z-index:5;
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+  padding:10px 7px;
+  background:linear-gradient(90deg,rgb(4 4 4),rgb(22 24 27));
+  border-right:2px solid #000
+}
+.ae-act-button {
+  position:relative;
+  display:flex;
+  height:80px;
+  flex:0 0 80px;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  cursor:pointer;
+  background:linear-gradient(180deg,rgb(62 62 62),rgb(37 37 37));
+  border:2px solid rgb(47 47 47);
+  border-radius:6px;
+  box-shadow:inset 0 1px 0 rgb(255 255 255 / 10%),0 2px 0 #000;
+  transition:transform 120ms ease,border-color 120ms ease,box-shadow 120ms ease;
+  user-select:none
+}
+.ae-act-button:hover {
+  transform:translateY(-1px);
+  border-color:rgb(111 111 111)
+}
+.ae-act-button:focus-visible {
+  outline:3px solid #fff;
+  outline-offset:2px
+}
+.ae-act-button.is-active {
+  background:var(--bg);
+  border-color:rgb(103 239 255);
+  box-shadow:inset 0 0 0 2px rgb(0 43 80),0 0 12px var(--color,rgb(0 153 255))
+}
+.ae-act-number {
+  color:#fff;
+  font-size:1.75rem;
+  font-weight:900;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-act-stars {
+  position:absolute;
+  right:4px;
+  bottom:2px;
+  left:4px;
+  display:flex;
+  justify-content:center;
+  overflow:hidden;
+  line-height:0
+}
+.ae-act-stars > .ae-act-star:nth-child(n+4) {
+  display:none !important
+}
+.ae-act-star {
+  width:18px;
+  height:18px;
+  margin:0 -2px
+}
+.ae-stage-panels {
+  position:relative;
+  min-width:0;
+  min-height:650px;
+  background:rgb(1 1 1)
+}
+.ae-stage-panel {
+  position:relative;
+  display:none !important;
+  min-height:650px;
+  background-size:cover !important;
+  background-position:center center !important;
+  background-repeat:no-repeat !important;
+  background-color:#05080c
+}
+.ae-stage-panel.is-active {
+  display:block !important
+}
+.ae-stage-panel::before {
+  position:absolute;
+  z-index:0;
+  inset:0;
+  content:"";
+  background:linear-gradient(90deg,rgb(0 0 0 / 10%),rgb(0 0 0 / 12%) 55%,rgb(0 0 0 / 22%)),linear-gradient(0deg,rgb(0 0 0 / 54%),rgb(0 0 0 / 4%) 74%);
+  pointer-events:none
+}
+.ae-mode-content {
+  display:none !important
+}
+.ae-mode-content.is-active {
+  display:block !important
+}
+.ae-stage-panel.ae-has-stage-bg,
+.ae-stage-panel[class*="ae-map--"] {
+  background-image:linear-gradient(90deg,rgba(5,8,12,0.22),rgba(5,8,12,0.18)),linear-gradient(180deg,rgba(7,12,22,0.10),rgba(7,12,22,0.35)),var(--ae-stage-bg) !important
+}
+.ae-map--school-grounds {
+  --ae-stage-bg:url(/wiki/Special:Redirect/file/School_Grounds.png)
+}
+.ae-map--flower-forest {
+  --ae-stage-bg:url(/wiki/Special:Redirect/file/Flower_Forest.png)
+}
+.ae-map--rose-kingdom {
+  --ae-stage-bg:url(/wiki/Special:Redirect/file/Rose_Kingdom.png)
+}
+.ae-map--fairy-king-forest {
+  --ae-stage-bg:url(/wiki/Special:Redirect/file/Fairy_King_Forest.png)
+}
+.ae-map--kings-tomb,
+.ae-map--king-s-tomb {
+  --ae-stage-bg:url(/wiki/Special:Redirect/file/King%27s_Tomb.png)
+}
+.ae-stage-main {
+  position:relative;
+  z-index:1;
+  min-width:0;
+  min-height:650px;
+  overflow:hidden;
+  background:transparent !important;
+  isolation:isolate
+}
+.ae-stage-main-inside {
+  position:relative;
+  z-index:1;
+  display:flex;
+  min-height:650px;
+  flex-direction:column;
+  padding:16px 18px
+}
+.ae-stage-lower {
+  position:relative;
+  z-index:3;
+  margin-top:auto
+}
+.ae-stage-header,
+.ae-difficulty-section,
+.ae-effects-section {
+  max-width:calc(100% - 315px)
+}
+.ae-stage-header {
+  position:relative;
+  z-index:4;
+  display:flex;
+  min-width:0;
+  min-height:118px;
+  align-items:flex-start;
+  gap:12px
+}
+.ae-stage-header-text {
+  min-width:0;
+  padding-top:4px
+}
+.ae-stage-type {
+  color:var(--color,rgb(0 153 255));
+  font-size:1.15rem;
+  font-weight:900;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-stage-title {
+  margin:0;
+  color:#fff;
+  font-size:2rem;
+  font-weight:900;
+  letter-spacing:0;
+  line-height:1.05;
+  overflow-wrap:anywhere;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-mode-name {
+  margin-top:3px;
+  color:var(--color);
+  font-size:1.12rem;
+  font-weight:900;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-mode-name.c-brightgreen,
+.ae-mode-name.c-dreadred {
+  color:var(--color) !important;
+  background:none !important
+}
+.ae-stage-selector-icon {
+  --opacity:1;
+  position:relative;
+  display:block;
+  width:112px;
+  height:112px;
+  flex:0 0 112px;
+  margin-top:-13px;
+  margin-left:-4px;
+  background:var(--bg,var(--color,#fff));
+  filter:contrast(1.18) saturate(1.18) drop-shadow(0 2px 1px rgb(0 0 0 / 85%));
+  -webkit-mask:url(/wiki/Special:Redirect/file/CompassHeader_Icon.png) center / contain no-repeat;
+  mask:url(/wiki/Special:Redirect/file/CompassHeader_Icon.png) center / contain no-repeat
+}
+.ae-stage-selector-icon::after {
+  position:absolute;
+  inset:0;
+  content:"";
+  background:url(/wiki/Special:Redirect/file/CompassHeader_Icon.png) center / contain no-repeat;
+  mix-blend-mode:multiply;
+  opacity:.62;
+  pointer-events:none
+}
+.ae-stage-section {
+  margin-top:10px
+}
+.ae-effects-section {
+  margin-top:8px
+}
+.ae-rewards-section {
+  margin-top:12px
+}
+.ae-section-heading {
+  display:flex;
+  align-items:center;
+  gap:7px;
+  margin:0 0 7px;
+  color:var(--color,rgb(0 153 255));
+  font-size:1.15rem;
+  font-weight:900;
+  letter-spacing:0;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000
+}
+.ae-section-heading::after {
+  display:none
+}
+.ae-section-heading-icon {
+  --opacity:1;
+  position:relative;
+  display:inline-block;
+  width:28px;
+  height:28px;
+  flex:0 0 28px;
+  background:var(--bg,var(--color,#fff));
+  filter:contrast(1.24) saturate(1.2) drop-shadow(0 2px 1px rgb(0 0 0 / 85%));
+  -webkit-mask:var(--ae-section-icon) center / contain no-repeat;
+  mask:var(--ae-section-icon) center / contain no-repeat
+}
+.ae-section-heading-icon::after {
+  position:absolute;
+  inset:0;
+  content:"";
+  background:var(--ae-section-icon) center / contain no-repeat;
+  mix-blend-mode:multiply;
+  opacity:.58;
+  pointer-events:none
+}
+.ae-section-icon--difficulties {
+  --ae-section-icon:url(/wiki/Special:Redirect/file/Difficulty_Icon.png)
+}
+.ae-section-icon--stage-effects {
+  --ae-section-icon:url(/wiki/Special:Redirect/file/Stage_Effects_Icon.png)
+}
+.ae-section-icon--rewards {
+  --ae-section-icon:url(/wiki/Special:Redirect/file/Gift_Icon.png)
+}
+.ae-difficulty-buttons {
+  display:flex;
+  gap:10px
+}
+.ae-difficulty {
+  display:flex;
+  width:76px;
+  height:78px;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  background:var(--bg,linear-gradient(180deg,rgb(54 54 54),rgb(25 25 25)));
+  border:3px solid rgb(58 58 58);
+  border-radius:7px;
+  box-shadow:inset 0 0 0 2px #000,0 2px 0 #000;
+  transition:transform 120ms ease,box-shadow 120ms ease;
+  user-select:none
+}
+.ae-difficulty:hover {
+  transform:translateY(-2px)
+}
+.ae-difficulty:focus-visible {
+  outline:3px solid #fff;
+  outline-offset:2px
+}
+.ae-difficulty.is-active {
+  border-color:var(--color);
+  box-shadow:inset 0 0 0 2px #000,0 0 10px var(--color)
+}
+.ae-difficulty-icon {
+  display:inline-flex;
+  width:50px;
+  height:50px;
+  align-items:center;
+  justify-content:center;
+  line-height:0
+}
+.ae-difficulty-icon img {
+  display:block;
+  width:48px;
+  height:48px;
+  object-fit:contain;
+  filter:contrast(1.15) drop-shadow(0 2px 1px rgb(0 0 0 / 80%))
+}
+.ae-difficulty > span:last-child {
+  margin-top:-2px;
+  color:var(--color);
+  font-size:.95rem;
+  font-weight:900;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-effect-list {
+  display:flex;
+  min-height:60px;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px
+}
+.ae-effect {
+  --opacity:1;
+  position:relative;
+  display:inline-flex;
+  width:60px;
+  height:60px;
+  flex:0 0 60px;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  opacity:1;
+  filter:contrast(1.22) saturate(1.22) drop-shadow(0 2px 1px rgb(0 0 0 / 85%))
+}
+.ae-effect:focus-visible {
+  outline:2px solid #fff;
+  outline-offset:2px;
+  border-radius:4px
+}
+.ae-effect-icon {
+  --opacity:1;
+  position:relative;
+  display:block;
+  width:58px;
+  height:58px;
+  background:var(--bg,var(--color,#fff));
+  -webkit-mask-image:var(--ae-effect-icon);
+  mask-image:var(--ae-effect-icon);
+  -webkit-mask-position:center;
+  mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+  -webkit-mask-size:contain;
+  mask-size:contain
+}
+.ae-effect-icon::after {
+  position:absolute;
+  inset:0;
+  content:"";
+  background-image:var(--ae-effect-icon);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  mix-blend-mode:multiply;
+  opacity:.62;
+  pointer-events:none
+}
+.ae-effect-multiplier {
+  position:absolute;
+  z-index:3;
+  right:-2px;
+  bottom:-1px;
+  color:#fff;
+  font-size:.85rem;
+  font-weight:900;
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-effect-multiplier--weak {
+  color:#ff3434 !important
+}
+.ae-effect-multiplier--strong {
+  color:#78ff00 !important
+}
+.ae-effects-section--bigger .ae-effect-list {
+  min-height:90px;
+  gap:12px
+}
+.ae-effects-section--bigger .ae-effect {
+  width:90px;
+  height:90px;
+  flex:0 0 90px
+}
+.ae-effects-section--bigger .ae-effect-icon {
+  width:87px;
+  height:87px
+}
+.ae-effects-section--bigger .ae-effect-multiplier {
+  right:-3px;
+  bottom:-1px;
+  font-size:1.15rem
+}
+.ae-effect--sprinter .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Sprinter_Icon.png)
+}
+.ae-effect--tank .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Tank_Icon.png)
+}
+.ae-effect--summoner .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Summoner_Icon.png)
+}
+.ae-effect--shielded .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Shielded_Icon.png)
+}
+.ae-effect--burrowing .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Burrowing_Icon.png)
+}
+.ae-effect--explosive .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Explosive_Icon.png)
+}
+.ae-effect--splitter .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Splitter_Icon.png)
+}
+.ae-effect--stunner .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Stunner_Icon.png)
+}
+.ae-effect--commander .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Commander_Icon.png)
+}
+.ae-effect--status-cleanse .ae-effect-icon,
+.ae-effect--status-cleanser .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Status_Cleanse_Icon.png)
+}
+.ae-effect--regen .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Regen_Icon.png)
+}
+.ae-effect--reinforced .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Reinforced_Icon.png)
+}
+.ae-effect--transformer .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Transformer_Icon.png)
+}
+.ae-effect--momentum .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Momentum_Icon.png)
+}
+.ae-effect--armored .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Armored_Icon.png)
+}
+.ae-effect--zone-debuff .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Zone_Debuff_Icon.png)
+}
+.ae-effect--bulwark .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Bulwark_Icon.png)
+}
+.ae-effect--upgrade-cap .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Upgrade_Cap_Icon.png)
+}
+.ae-effect--short-range .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Short_Range_Icon.png)
+}
+.ae-effect--speedy .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Speedy_Icon.png)
+}
+.ae-effect--boss-waves .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Boss_Waves_Icon.png)
+}
+.ae-effect--regen1 .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Regen_1_Icon.png)
+}
+.ae-effect--regen2 .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Regen_2_Icon.png)
+}
+.ae-effect--regen3 .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Regen_3_Icon.png)
+}
+.ae-effect--no-farms .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/No_Farms_Icon.png)
+}
+.ae-effect--light .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Light_Icon.png)
+}
+.ae-effect--traitless .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Traitless_Icon.png)
+}
+.ae-effect--resistance .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Resistance_Icon.png)
+}
+.ae-effect--immunity .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Immunity_Icon.png)
+}
+.ae-effect--retaliation-counter .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Retaliation_Counter_Icon.png)
+}
+.ae-effect--greed .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Greed_Icon.png)
+}
+.ae-effect--neutral .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Neutral_Icon.png)
+}
+.ae-effect--flame .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Flame_Icon.png)
+}
+.ae-effect--hydro .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Hydro_Icon.png)
+}
+.ae-effect--terra .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Terra_Icon.png)
+}
+.ae-effect--storm .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Storm_Icon.png)
+}
+.ae-effect--dark .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Dark_Icon.png)
+}
+.ae-effect--gale .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Gale_Icon.png)
+}
+.ae-effect--physical .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Physical_Icon.png)
+}
+.ae-effect--magical .ae-effect-icon {
+  --ae-effect-icon:url(/wiki/Special:Redirect/file/Magical_Icon.png)
+}
+.ae-reward-cards {
+  display:flex;
+  min-width:0;
+  flex-wrap:nowrap;
+  align-items:flex-start;
+  gap:9px;
+  overflow-x:auto;
+  padding:3px 2px 9px;
+  scrollbar-width:thin
+}
+.ae-item-entry,
+.ae-drop-entry {
+  position:relative;
+  display:flex;
+  min-width:104px;
+  flex:0 0 auto;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start
+}
+.ae-item-template,
+.ae-drop-template {
+  position:relative;
+  display:flex;
+  min-width:0;
+  align-items:center;
+  justify-content:center;
+  line-height:normal
+}
+.ae-reward-amount {
+  position:absolute;
+  z-index:8;
+  top:-2px;
+  left:-1px;
+  padding:2px 5px;
+  color:#fff;
+  font-size:.72rem;
+  font-weight:900;
+  line-height:1;
+  background:#050505;
+  border:1px solid #000;
+  border-radius:9px;
+  text-shadow:0 1px 0 #000;
+  pointer-events:none
+}
+.ae-reward-gift {
+  position:absolute;
+  z-index:8;
+  top:-2px;
+  right:-1px;
+  display:inline-flex;
+  width:22px;
+  height:22px;
+  line-height:0;
+  pointer-events:none
+}
+.ae-reward-gift img {
+  display:block;
+  width:22px;
+  height:22px;
+  object-fit:contain;
+  filter:drop-shadow(0 1px 1px #000)
+}
+.ae-drop-meta {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1px;
+  margin-top:3px;
+  color:rgb(255 220 28);
+  font-size:.7rem;
+  font-weight:900;
+  line-height:1.08;
+  text-align:center;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000
+}
+.ae-stage-panel--infinite .ae-rewards-section,
+.ae-stage-panel[data-stage="Infinite"] .ae-rewards-section {
+  max-width:none !important
+}
+.ae-wave-calculator {
+  display:block;
+  margin-bottom:10px;
+  padding:10px 12px;
+  background:rgb(5 5 5 / 70%);
+  border:2px solid var(--color,rgb(76 240 0));
+  border-radius:5px;
+  box-shadow:inset 0 0 10px rgb(0 0 0 / 55%)
+}
+.ae-stage-panel--infinite .ae-wave-calculator,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-calculator {
+  box-sizing:border-box;
+  width:100%;
+  max-width:500px !important;
+  margin-left:-10px !important;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 108px !important;
+  gap:6px 10px !important;
+  align-items:center;
+  padding:10px 12px;
+  overflow:hidden
+}
+.ae-wave-rule {
+  margin-bottom:4px;
+  color:var(--color,rgb(76 240 0));
+  font-size:.95rem;
+  font-weight:900;
+  text-shadow:0 2px 0 #000
+}
+.ae-stage-panel--infinite .ae-wave-rule,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-rule {
+  grid-column:1 / -1;
+  margin:0
+}
+.ae-wave-help,
+.ae-wave-description,
+.ae-wave-instructions {
+  max-width:620px;
+  margin-bottom:9px;
+  color:rgb(225 225 225);
+  font-size:.84rem;
+  font-weight:600;
+  line-height:1.25
+}
+.ae-stage-panel--infinite .ae-wave-help,
+.ae-stage-panel--infinite .ae-wave-description,
+.ae-stage-panel--infinite .ae-wave-instructions,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-help,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-description,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-instructions {
+  grid-column:1;
+  max-width:260px !important;
+  margin:0;
+  line-height:1.15;
+  white-space:normal
+}
+.ae-wave-controls {
+  display:flex;
+  align-items:center;
+  gap:10px
+}
+.ae-wave-label {
+  flex:0 0 auto;
+  color:#fff;
+  font-size:.9rem;
+  font-weight:900;
+  text-shadow:0 2px 0 #000
+}
+.ae-wave-input-slot {
+  display:inline-flex;
+  width:120px
+}
+.ae-stage-panel--infinite .ae-wave-input-slot,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-input-slot {
+  grid-column:2;
+  grid-row:2 / span 2;
+  display:flex;
+  width:108px !important;
+  min-width:0 !important;
+  flex-direction:column;
+  gap:4px;
+  align-items:stretch
+}
+.ae-wave-calculator-input {
+  width:120px;
+  height:36px;
+  padding:4px 9px;
+  color:#fff;
+  font-weight:800;
+  background:rgb(20 20 20);
+  border:2px solid var(--color,rgb(76 240 0));
+  border-radius:5px;
+  box-shadow:inset 0 1px 3px #000,0 0 5px var(--color,rgb(76 240 0))
+}
+.ae-stage-panel--infinite .ae-wave-calculator-input,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-calculator-input {
+  width:108px !important;
+  min-width:0 !important
+}
+.ae-wave-calculator-input:focus {
+  outline:2px solid #fff;
+  outline-offset:2px
+}
+.ae-wave-calculator-status {
+  margin-top:8px;
+  color:rgb(225 225 225);
+  font-size:.82rem;
+  font-weight:700;
+  line-height:1.2
+}
+.ae-stage-panel--infinite .ae-wave-calculator-status,
+.ae-stage-panel[data-stage="Infinite"] .ae-wave-calculator-status {
+  grid-column:1 / -1;
+  margin:0;
+  line-height:1.15
+}
+.ae-boss-overlay {
+  position:absolute;
+  z-index:4;
+  top:112px;
+  right:20px;
+  bottom:116px;
+  display:flex;
+  width:275px;
+  align-items:center;
+  justify-content:center;
+  pointer-events:none
+}
+.ae-boss-section {
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  align-items:center !important;
+  justify-content:center;
+  text-align:center !important;
+  pointer-events:auto
+}
+.ae-boss-heading {
+  width:100% !important;
+  justify-content:center !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-bottom:12px;
+  text-align:center !important
+}
+.ae-boss-list {
+  display:flex;
+  width:100%;
+  gap:8px;
+  justify-content:center !important;
+  overflow-x:auto;
+  padding:2px 12px 6px !important;
+  background:none;
+  border:0;
+  box-shadow:none;
+  scrollbar-width:thin;
+  scroll-padding:12px
+}
+.ae-boss-list:has(.ae-boss:nth-child(2)) {
+  justify-content:flex-start !important;
+  padding-left:18px !important;
+  padding-right:18px !important;
+  scroll-padding-left:18px;
+  scroll-padding-right:18px
+}
+.ae-boss {
+  width:96px;
+  min-width:96px;
+  max-width:96px;
+  flex:0 0 auto;
+  overflow:visible;
+  text-align:center
+}
+.ae-boss-list:has(.ae-boss:nth-child(2)) .ae-boss {
+  width:100px;
+  min-width:100px;
+  max-width:100px
+}
+.ae-boss .enemy-box,
+.ae-boss .EnemyBox,
+.ae-boss [class*="enemy"],
+.ae-boss [class*="Enemy"] {
+  margin-right:auto;
+  margin-left:auto
+}
+.ae-boss-name,
+.ae-boss figcaption,
+.ae-boss .caption,
+.ae-boss .name {
+  display:block;
+  width:100%;
+  max-width:100px;
+  margin-top:3px;
+  white-space:normal !important;
+  overflow-wrap:anywhere;
+  word-break:normal;
+  line-height:1.05;
+  text-align:center
+}
+.ae-stage-actions {
+  position:relative;
+  z-index:5;
+  display:flex;
+  gap:10px;
+  margin-top:12px
+}
+.ae-stage-action-button,
+a.ae-stage-action-button {
+  display:inline-flex;
+  min-height:52px;
+  min-width:240px;
+  align-items:center;
+  justify-content:center;
+  padding:0 18px;
+  color:#fff !important;
+  font-size:1.05rem;
+  font-weight:900;
+  text-align:center;
+  text-decoration:none !important;
+  background:linear-gradient(180deg,rgb(100 255 0),rgb(35 150 0));
+  border:2px solid rgb(107 255 54);
+  border-radius:5px;
+  box-shadow:inset 0 1px 0 rgb(255 255 255 / 25%),0 3px 0 rgb(8 65 0);
+  text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000
+}
+.ae-stage-action-button:visited,
+.ae-stage-action-button:hover,
+.ae-stage-action-button:active,
+.ae-stage-action-button a,
+.ae-stage-action-button a:visited,
+.ae-stage-action-button a:hover,
+.ae-stage-action-button a:active {
+  color:#fff !important;
+  text-decoration:none !important
+}
+.ae-stage-action-button:hover,
+a.ae-stage-action-button:hover {
+  filter:brightness(1.08)
+}
+.ae-star-file {
+  display:inline-flex;
+  flex:0 0 auto;
+  align-items:center;
+  justify-content:center;
+  line-height:0
+}
+.ae-star-file img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  filter:none !important
+}
+.ae-empty {
+  display:block;
+  padding:7px;
+  color:rgb(180 180 180);
+  font-style:italic
+}
+.ae-extra-star-missions {
+  display:grid;
+  gap:6px;
+  margin:0;
+  padding:0;
+  list-style:none
+}
+.ae-extra-star-missions li {
+  padding:9px 12px;
+  color:rgb(230 230 230);
+  font-weight:800;
+  background:linear-gradient(180deg,rgb(31 31 31),rgb(20 20 20));
+  border:2px solid rgb(50 50 50);
+  border-radius:6px;
+  box-shadow:0 2px 0 #000;
+  text-shadow:0 2px 0 #000
+}
+.ae-extra-star-rewards {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:flex-start
+}
+.ae-extra-star-reward {
+  position:relative;
+  display:flex;
+  min-width:104px;
+  flex-direction:column;
+  align-items:center
+}
+.ae-extra-star-reward-box {
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.ae-extra-star-reward-label {
+  margin-top:4px;
+  color:rgb(255 220 28);
+  font-size:.8rem;
+  font-weight:900;
+  text-align:center;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000
+}
+@media (max-width:950px) {
+  .ae-stage-shell {
+    grid-template-columns:76px minmax(0,1fr)
+  }
+  .ae-act-button {
+    height:72px;
+    flex-basis:72px
+  }
+  .ae-stage-selector-icon {
+    width:98px;
+    height:98px;
+    flex-basis:98px;
+    margin-top:-10px
+  }
+  .ae-stage-header,
+  .ae-difficulty-section,
+  .ae-effects-section {
+    max-width:calc(100% - 285px)
+  }
+  .ae-boss-overlay {
+    width:250px
+  }
+}
+@media (max-width:760px) {
+  .ae-stage-shell {
+    display:block;
+    min-height:0
+  }
+  .ae-act-selector {
+    position:sticky;
+    z-index:20;
+    top:0;
+    display:grid;
+    grid-template-columns:repeat(7,minmax(0,1fr));
+    gap:4px;
+    padding:5px;
+    border-right:0;
+    border-bottom:2px solid #000
+  }
+  .ae-act-button {
+    width:auto;
+    height:62px;
+    min-height:62px;
+    flex-basis:auto
+  }
+  .ae-act-number {
+    font-size:1.3rem
+  }
+  .ae-act-star {
+    width:16px;
+    height:16px
+  }
+  .ae-stage-panels,
+  .ae-stage-panel,
+  .ae-stage-main,
+  .ae-stage-main-inside {
+    min-height:0
+  }
+  .ae-stage-main-inside {
+    padding:12px
+  }
+  .ae-stage-header,
+  .ae-difficulty-section,
+  .ae-effects-section {
+    max-width:none
+  }
+  .ae-boss-overlay {
+    position:relative;
+    top:auto;
+    right:auto;
+    bottom:auto;
+    width:auto;
+    margin-top:12px;
+    justify-content:flex-start
+  }
+  .ae-boss-section {
+    align-items:flex-start !important;
+    text-align:left !important
+  }
+  .ae-boss-heading {
+    justify-content:flex-start !important;
+    text-align:left !important
+  }
+  .ae-boss-list,
+  .ae-boss-list:has(.ae-boss:nth-child(2)) {
+    justify-content:flex-start !important
+  }
+  .ae-stage-header {
+    min-height:94px
+  }
+  .ae-stage-selector-icon {
+    width:86px;
+    height:86px;
+    flex-basis:86px;
+    margin-top:-7px;
+    margin-left:-2px
+  }
+  .ae-stage-title {
+    font-size:1.45rem
+  }
+  .ae-stage-type,
+  .ae-mode-name {
+    font-size:1rem
+  }
+  .ae-stage-action-button,
+  a.ae-stage-action-button {
+    width:100%;
+    min-width:0
+  }
+  .ae-stage-panel--infinite .ae-wave-calculator,
+  .ae-stage-panel[data-stage="Infinite"] .ae-wave-calculator {
+    grid-template-columns:1fr !important;
+    max-width:100% !important;
+    margin-left:0 !important
+  }
+  .ae-stage-panel--infinite .ae-wave-input-slot,
+  .ae-stage-panel[data-stage="Infinite"] .ae-wave-input-slot {
+    grid-column:1;
+    grid-row:auto;
+    width:100% !important
+  }
+}
+@media (max-width:520px) {
+  .ae-section-heading {
+    font-size:1rem
+  }
+  .ae-difficulty {
+    width:68px;
+    height:72px
+  }
+  .ae-difficulty-icon,
+  .ae-difficulty-icon img {
+    width:43px;
+    height:43px
+  }
+  .ae-effect {
+    width:51px;
+    height:51px;
+    flex-basis:51px
+  }
+  .ae-effect-icon {
+    width:50px;
+    height:50px
+  }
+  .ae-wave-controls {
+    align-items:stretch;
+    flex-direction:column
+  }
+  .ae-wave-input-slot,
+  .ae-wave-calculator-input {
+    width:100%
+  }
+}
+.expedition-hub-map .ExpHub-tooltip-mouse-container {
+  position:absolute;
+  width:auto;
+  height:auto;
+  transform:translate(-50%,-50%) scale(1);
+  transform-origin:center center;
+  transition:transform 0.15s ease;
+  z-index:2 
+}
+.expedition-hub-map .ExpHub-tooltip-mouse-container:hover {
+  transform:translate(-50%,-50%) scale(1.25) 
+}
+.expedition-hub-map .ExpHub-tooltip-mouse-container img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain
+}
+.expedition-hub-map .ExpHub-tooltip-mouse-container::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--bg,transparent);
+  background-size:var(--background-size,contain);
+  background-position:center;
+  -webkit-mask-image:var(--url,none);
+  -webkit-mask-size:contain;
+  -webkit-mask-repeat:no-repeat;
+  mask-image:var(--url,none);
+  mask-size:contain;
+  mask-repeat:no-repeat;
+  mix-blend-mode:multiply;
+  mask-mode:alpha;
+  -webkit-mask-mode:alpha;
+  width:var(--width,100%);
+  top:var(--top-offset,0);
+  left:var(--left-offset,0);
+  pointer-events:none
+}
+.resource-drill-calculator {
+  box-sizing:border-box;
+  width:100%;
+  max-width:800px;
+  margin:1.25em auto;
+  overflow:hidden;
+  color:#f2f4f5;
+  background:#17191b;
+  border:1px solid #464c51;
+  border-radius:8px;
+  box-shadow:0 5px 18px rgba(0,0,0,0.28)
+}
+.resource-drill-calculator *,
+.resource-drill-calculator *::before,
+.resource-drill-calculator *::after {
+  box-sizing:border-box
+}
+.rdc-header {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:18px;
+  background:#202428;
+  border-bottom:1px solid #464c51
+}
+.rdc-header-item,
+.rdc-result-item {
+  flex:0 0 auto
+}
+.rdc-heading,
+.rdc-result-copy {
+  min-width:0
+}
+.rdc-title {
+  color:#83e11f;
+  font-size:1.25rem;
+  font-weight:700
+}
+.rdc-subtitle {
+  margin-top:5px;
+  color:#f2f4f5;
+  font-size:0.95rem
+}
+.rdc-controls {
+  padding:18px
+}
+.rdc-control-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px 14px
+}
+.rdc-mode-panel {
+  grid-column:1 / -1;
+  padding-top:6px
+}
+.rdc-field {
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  gap:7px;
+  color:#f2f4f5;
+  font-weight:700
+}
+.rdc-field > span,
+.rdc-time-heading {
+  color:#f2f4f5;
+  font-size:0.95rem
+}
+.rdc-field input,
+.rdc-field select {
+  width:100%;
+  min-width:0;
+  min-height:42px;
+  padding:8px 10px;
+  color:#f2f4f5;
+  background:#0d0f11;
+  border:1px solid #60686f;
+  border-radius:5px;
+  font:inherit;
+  font-weight:400
+}
+.rdc-field select option {
+  color:#f2f4f5;
+  background:#0d0f11
+}
+.rdc-field input:hover,
+.rdc-field select:hover {
+  border-color:#b8bec3
+}
+.rdc-field input:focus,
+.rdc-field select:focus {
+  border-color:#83e11f;
+  outline:2px solid rgba(131,225,31,0.22);
+  outline-offset:1px
+}
+.rdc-fuel-panel {
+  max-width:250px
+}
+.rdc-time-heading {
+  display:block;
+  margin-bottom:9px;
+  font-weight:700
+}
+.rdc-time-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px
+}
+.rdc-result {
+  display:grid;
+  grid-template-columns:minmax(220px,0.9fr) minmax(0,1.35fr);
+  align-items:center;
+  gap:28px;
+  padding:22px 18px;
+  background:#101214;
+  border-top:1px solid #464c51
+}
+.rdc-result-primary {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  min-width:0
+}
+.rdc-result-label {
+  display:block;
+  color:#b8bec3;
+  font-size:0.95rem
+}
+.rdc-result-value {
+  display:block;
+  margin-top:5px;
+  color:#83e11f;
+  font-size:2rem;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+  word-break:break-word
+}
+.rdc-details {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(130px,1fr));
+  gap:20px 28px
+}
+.rdc-detail {
+  min-width:0
+}
+.rdc-detail span,
+.rdc-detail strong {
+  display:block
+}
+.rdc-detail span {
+  margin-bottom:5px;
+  color:#b8bec3;
+  font-size:0.88rem
+}
+.rdc-detail strong {
+  color:#f2f4f5;
+  font-size:0.96rem;
+  font-variant-numeric:tabular-nums;
+  word-break:break-word
+}
+.rdc-notice {
+  padding:13px 18px;
+  color:#f2f4f5;
+  background:#202428;
+  border-top:1px solid #464c51;
+  font-size:0.9rem
+}
+.rdc-unused-note {
+  color:#b8bec3
+}
+.rdc-js-required {
+  color:#b8bec3
+}
+.resource-drill-calculator .rdc-is-hidden {
+  display:none !important
+}
+.resource-drill-calculator [hidden] {
+  display:none !important
+}
+@media screen and (max-width:700px) {
+  .rdc-control-grid {
+    grid-template-columns:1fr
+  }
+  .rdc-mode-panel {
+    grid-column:auto
+  }
+  .rdc-fuel-panel {
+    max-width:none
+  }
+  .rdc-result {
+    grid-template-columns:1fr;
+    align-items:stretch
+  }
+  .rdc-details {
+    grid-template-columns:repeat(2,minmax(0,1fr))
+  }
+}
+@media screen and (max-width:480px) {
+  .rdc-header {
+    align-items:flex-start
+  }
+  .rdc-time-grid,
+  .rdc-details {
+    grid-template-columns:1fr
+  }
+  .rdc-result-primary {
+    align-items:flex-start
+  }
+  .rdc-result-value {
+    font-size:1.65rem
+  }
+}
+.gold-mine-calculator {
+  box-sizing:border-box;
+  width:100%;
+  max-width:800px;
+  margin:1.25em auto;
+  overflow:hidden;
+  color:#f2f4f5;
+  background:#17191b;
+  border:1px solid #535048;
+  border-radius:8px;
+  box-shadow:0 5px 18px rgba(0,0,0,0.28)
+}
+.gold-mine-calculator *,
+.gold-mine-calculator *::before,
+.gold-mine-calculator *::after {
+  box-sizing:border-box
+}
+.gmc-header {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:18px;
+  background:#202428;
+  border-bottom:1px solid #535048
+}
+.gmc-header-item,
+.gmc-result-item {
+  flex:0 0 auto
+}
+.gmc-heading,
+.gmc-result-copy {
+  min-width:0
+}
+.gmc-title {
+  color:#f4c542;
+  font-size:1.25rem;
+  font-weight:700
+}
+.gmc-subtitle {
+  margin-top:5px;
+  color:#f2f4f5;
+  font-size:0.95rem
+}
+.gmc-controls {
+  padding:18px
+}
+.gmc-control-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px 14px
+}
+.gmc-mode-panel {
+  grid-column:1 / -1;
+  padding-top:6px
+}
+.gmc-field {
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  gap:7px;
+  color:#f2f4f5;
+  font-weight:700
+}
+.gmc-field > span,
+.gmc-time-heading {
+  color:#f2f4f5;
+  font-size:0.95rem
+}
+.gmc-field input,
+.gmc-field select {
+  width:100%;
+  min-width:0;
+  min-height:42px;
+  padding:8px 10px;
+  color:#f2f4f5;
+  background:#0d0f11;
+  border:1px solid #686257;
+  border-radius:5px;
+  font:inherit;
+  font-weight:400
+}
+.gmc-field select option {
+  color:#f2f4f5;
+  background:#0d0f11
+}
+.gmc-field input:hover,
+.gmc-field select:hover {
+  border-color:#c9bd9d
+}
+.gmc-field input:focus,
+.gmc-field select:focus {
+  border-color:#f4c542;
+  outline:2px solid rgba(244,197,66,0.22);
+  outline-offset:1px
+}
+.gmc-fuel-panel {
+  max-width:250px
+}
+.gmc-time-heading {
+  display:block;
+  margin-bottom:9px;
+  font-weight:700
+}
+.gmc-time-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px
+}
+.gmc-result {
+  display:grid;
+  grid-template-columns:minmax(240px,0.95fr) minmax(0,1.35fr);
+  align-items:center;
+  gap:28px;
+  padding:22px 18px;
+  background:#101214;
+  border-top:1px solid #535048
+}
+.gmc-result-primary {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  min-width:0
+}
+.gmc-result-label {
+  display:block;
+  color:#c4c0b7;
+  font-size:0.95rem
+}
+.gmc-result-value {
+  display:block;
+  margin-top:5px;
+  color:#f4c542;
+  font-size:1.7rem;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+  word-break:break-word
+}
+.gmc-details {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(130px,1fr));
+  gap:20px 28px
+}
+.gmc-detail {
+  min-width:0
+}
+.gmc-detail span,
+.gmc-detail strong {
+  display:block
+}
+.gmc-detail span {
+  margin-bottom:5px;
+  color:#c4c0b7;
+  font-size:0.88rem
+}
+.gmc-detail strong {
+  color:#f2f4f5;
+  font-size:0.96rem;
+  font-variant-numeric:tabular-nums;
+  word-break:break-word
+}
+.gmc-notice {
+  padding:13px 18px;
+  color:#f2f4f5;
+  background:#202428;
+  border-top:1px solid #535048;
+  font-size:0.9rem
+}
+.gmc-unused-note,
+.gmc-js-required {
+  color:#c4c0b7
+}
+.gold-mine-calculator .gmc-is-hidden {
+  display:none !important
+}
+.gold-mine-calculator [hidden] {
+  display:none !important
+}
+@media screen and (max-width:700px) {
+  .gmc-control-grid {
+    grid-template-columns:1fr
+  }
+  .gmc-mode-panel {
+    grid-column:auto
+  }
+  .gmc-fuel-panel {
+    max-width:none
+  }
+  .gmc-result {
+    grid-template-columns:1fr;
+    align-items:stretch
+  }
+  .gmc-details {
+    grid-template-columns:repeat(2,minmax(0,1fr))
+  }
+}
+@media screen and (max-width:480px) {
+  .gmc-header {
+    align-items:flex-start
+  }
+  .gmc-time-grid,
+  .gmc-details {
+    grid-template-columns:1fr
+  }
+  .gmc-result-primary {
+    align-items:flex-start
+  }
+  .gmc-result-value {
+    font-size:1.4rem
+  }
+}
+.training-grounds-calculator {
+  max-width:800px;
+  margin:1.5em auto;
+  box-sizing:border-box;
+  overflow:hidden;
+  border:1px solid #465158;
+  border-radius:8px;
+  background:#15191b;
+  color:#f2f4f5
+}
+.training-grounds-calculator *,
+.training-grounds-calculator *:before,
+.training-grounds-calculator *:after {
+  box-sizing:border-box
+}
+.tgc-header {
+  display:flex;
+  align-items:center;
+  gap:18px;
+  padding:20px;
+  border-bottom:1px solid #465158;
+  background:#22282c
+}
+.tgc-building-image {
+  flex:0 0 80px;
+  line-height:0
+}
+.tgc-building-image img {
+  width:80px;
+  height:80px;
+  border-radius:7px;
+  object-fit:contain
+}
+.tgc-heading {
+  min-width:0
+}
+.tgc-title {
+  color:#79e51e;
+  font-size:1.35em;
+  font-weight:700
+}
+.tgc-subtitle {
+  margin-top:8px;
+  color:#f1f3f4
+}
+.tgc-controls {
+  padding:20px;
+  border-bottom:1px solid #465158
+}
+.tgc-control-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px
+}
+.tgc-field,
+.tgc-duration-field {
+  display:block;
+  min-width:0
+}
+.tgc-field > span,
+.tgc-duration-label {
+  display:block;
+  margin-bottom:8px;
+  color:#f2f4f5;
+  font-weight:700
+}
+.tgc-field input,
+.tgc-field select,
+.tgc-duration-field input {
+  width:100%;
+  min-height:43px;
+  padding:9px 12px;
+  border:1px solid #68747b;
+  border-radius:6px;
+  background:#111517;
+  color:#f2f4f5;
+  font:inherit
+}
+.tgc-duration-inputs {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px
+}
+.tgc-duration-field span {
+  display:block;
+  margin-bottom:6px;
+  color:#bdc5c9;
+  font-size:0.85em
+}
+.tgc-cap-note {
+  margin:14px 0 0;
+  color:#f0c34c;
+  font-size:0.9em
+}
+.tgc-result {
+  display:grid;
+  grid-template-columns:minmax(190px,0.8fr) minmax(0,1.7fr)
+}
+.tgc-result-primary {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:8px;
+  padding:24px;
+  border-right:1px solid #465158;
+  background:#101416
+}
+.tgc-result-label,
+.tgc-detail span {
+  color:#bdc5c9
+}
+.tgc-level-value {
+  color:#79e51e;
+  font-size:1.65em;
+  line-height:1.15
+}
+.tgc-levels-gained {
+  color:#f2f4f5;
+  font-size:1.1em
+}
+.tgc-details {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:22px 18px;
+  padding:24px
+}
+.tgc-detail {
+  min-width:0
+}
+.tgc-detail span,
+.tgc-detail strong {
+  display:block
+}
+.tgc-detail strong {
+  margin-top:6px;
+  color:#f2f4f5;
+  font-size:1.05em;
+  overflow-wrap:anywhere
+}
+.tgc-notice {
+  padding:18px 20px;
+  border-top:1px solid #465158;
+  background:#22282c;
+  color:#f1f3f4;
+  line-height:1.55
+}
+.tgc-js-required {
+  color:#f2f4f5
+}
+.training-grounds-calculator [hidden] {
+  display:none !important
+}
+@media screen and (max-width:700px) {
+  .tgc-control-grid,
+  .tgc-result {
+    grid-template-columns:1fr
+  }
+  .tgc-result-primary {
+    border-right:0;
+    border-bottom:1px solid #465158
+  }
+  .tgc-details {
+    grid-template-columns:1fr
+  }
+  .tgc-header {
+    align-items:flex-start
+  }
+}
+@media screen and (max-width:430px) {
+  .tgc-header {
+    gap:14px;
+    padding:16px
+  }
+  .tgc-building-image,
+  .tgc-building-image img {
+    width:64px;
+    height:64px
+  }
+  .tgc-controls,
+  .tgc-result-primary,
+  .tgc-details {
+    padding:16px
+  }
+}
+.trait-tome-shop,
+.trait-tome-tabs {
+  max-width:1120px;
+  margin:12px auto;
+  color:#f8f8f8;
+  font-family:Arial,Helvetica,sans-serif;
+  text-shadow:0 2px 2px #000
+}
+.trait-tome-shop {
+  padding:14px;
+  border:4px solid #5b2b12;
+  border-radius:8px;
+  background:#090402;
+  box-shadow:inset 0 0 0 2px #9b5428,inset 0 0 42px #000
+}
+.trait-tome-shop-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:28px 18px;
+  padding:14px 8px 28px
+}
+.trait-shop-item,
+.trait-tome-card {
+  position:relative;
+  outline:none
+}
+.trait-shop-item {
+  min-height:190px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end
+}
+.trait-shop-item:after {
+  content:"";
+  position:absolute;
+  left:4px;
+  right:4px;
+  bottom:28px;
+  height:16px;
+  border:2px solid #241006;
+  background:linear-gradient(#5b2a15,#281006);
+  transform:skewX(-10deg);
+  z-index:0
+}
+.trait-shop-art {
+  position:relative;
+  z-index:1;
+  width:150px;
+  height:132px
+}
+.trait-shop-tome {
+  position:absolute;
+  left:18px;
+  top:0
+}
+.trait-shop-badge {
+  position:absolute;
+  right:0;
+  bottom:10px
+}
+.trait-shop-name {
+  position:relative;
+  z-index:2;
+  font-weight:800;
+  color:#fff6c8
+}
+.trait-shop-price {
+  position:relative;
+  z-index:2;
+  margin-top:3px;
+  padding:3px 10px;
+  border:2px solid #6b321a;
+  border-radius:4px;
+  background:linear-gradient(#7b3a1d,#2b1208);
+  color:#ffd22d;
+  font-weight:900;
+  font-size:20px;
+  -webkit-text-stroke:1px #000
+}
+.trait-shop-refresh {
+  margin-top:8px;
+  padding:12px;
+  border:2px solid #ff7b00;
+  border-radius:7px;
+  background:linear-gradient(#ffae12,#b84800);
+  text-align:center;
+  font-size:20px;
+  font-weight:900;
+  color:#fff
+}
+.trait-tome-tab-list {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin-bottom:10px
+}
+.trait-tome-tab {
+  padding:8px 12px;
+  border:1px solid #614300;
+  border-radius:6px;
+  background:#1b1300;
+  color:#ffd02a;
+  font-weight:800;
+  cursor:pointer
+}
+.trait-tome-tab.is-active {
+  background:linear-gradient(#ffcf2e,#c76f00);
+  color:#fff;
+  border-color:#ffd86a
+}
+.trait-tome-tabs.trait-tome-js-ready .trait-tome-panel {
+  display:none
+}
+.trait-tome-tabs.trait-tome-js-ready .trait-tome-panel.is-active {
+  display:block
+}
+.trait-tome-card {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:190px;
+  padding:18px;
+  border:2px solid #8a6700;
+  border-radius:8px;
+  background:linear-gradient(90deg,rgba(40,29,0,.94),rgba(8,8,14,.94));
+  box-shadow:inset 0 0 30px rgba(255,183,0,.14)
+}
+.trait-tone-rainbow {
+  border-color:#b138c6;
+  box-shadow:inset 0 0 32px rgba(53,255,120,.12),0 0 0 1px rgba(65,190,255,.25)
+}
+.trait-tome-name {
+  margin-top:8px;
+  color:#ffd21f;
+  font-size:23px;
+  font-weight:900;
+  -webkit-text-stroke:1px #000
+}
+.trait-tome-tooltip {
+  display:none;
+  position:absolute;
+  left:50%;
+  bottom:calc(100% + 8px);
+  z-index:20;
+  width:max-content;
+  max-width:280px;
+  padding:8px 10px;
+  border:1px solid #6d5200;
+  border-radius:6px;
+  background:rgba(8,8,10,.96);
+  color:#ddd;
+  font-size:14px;
+  font-weight:700;
+  text-align:left;
+  transform:translateX(-50%);
+  box-shadow:0 6px 20px rgba(0,0,0,.55)
+}
+.trait-shop-item:hover .trait-tome-tooltip,
+.trait-shop-item:focus .trait-tome-tooltip,
+.trait-tome-card:hover .trait-tome-tooltip,
+.trait-tome-card:focus .trait-tome-tooltip {
+  display:block
+}
+@media (max-width:700px) {
+  .trait-tome-name {
+    font-size:20px
+  }
+  .trait-tome-tooltip {
+    position:static;
+    width:auto;
+    max-width:none;
+    margin-top:8px;
+    transform:none
+  }
+}
+.modifier-tooltip {
+  position:relative;
+  display:block;
+  box-shadow:0 0 0px 2px black,0 0 0px 2px inset rgb(26 26 26);
+  background:rgb(0 0 0 / 80%);
+  border-radius:8px;
+  width:100%;
+  max-width:320px;
+  transition:transform 0.2s
+}
+.modifier-tooltip:hover {
+  transform:scale(1.01);
+  box-shadow:0 0 0px 2px black,0 0 0px 4px white,0 0 0px 2px inset rgb(26 26 26)
+}
+.modifier-tooltip-container {
+  display:flex;
+  width:100%;
+  padding:4px 20px 4px 8px;
+  justify-content:space-between;
+  box-sizing:border-box;
+  gap:6px;
+  pointer-events:none
+}
+.modifier-tooltip-glow {
+  position:absolute;
+  height:94px;
+  width:94px;
+  background:var(--bg);
+  mask-image:radial-gradient(rgb(0 0 0 /60%) 30%,rgb(0 0 0 /20%) 50%,transparent 72%)
+}
+.modifier-tooltip-info {
+  display:flex;
+  flex-direction:column;
+  width:68%;
+  flex:1;
+  line-height:1.1;
+  justify-content:center
+}
+.modifier-tooltip-type {
+  width:fit-content;
+  font-family:'Montserrat';
+  color:rgb(120 120 120);
+  font-weight:800;
+  letter-spacing:3%
+}
+.modifier-tooltip-text {
+  width:fit-content;
+  margin-top:4px;
+  line-height:1.2;
+  color:rgb(180 180 180);
+  font-weight:700;
+  letter-spacing:3%;
+  font-size:12px
+}
+.tierlist-master {
+  display:flex;
+  flex-direction:column;
+  gap:8px
+}
+.tierlist-row {
+  display:flex;
+  border-radius:8px;
+  border:2px solid black;
+  width:100%;
+  min-height:264px;
+  overflow:hidden;
+  box-shadow:0 0 0px 2px color-mix(var(--color),white 10%)
+}
+.tierlist-label {
+  position:relative;
+  display:flex;
+  width:20%;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background:linear-gradient(90deg,transparent 50%,rgb(var(--raw-color) / 35%) 86%,rgb(var(--raw-color) / 70%) 90%),url(https://static.wikitide.net/animeexpeditionswiki/9/96/Battlepass_Season_Background.png),linear-gradient(0deg,rgb(var(--raw-color) / 10%),rgb(var(--raw-color) / 31%)),black;
+  background-size:260px;
+  background-blend-mode:screen,overlay,normal
+}
+.tierlist-label-shadow {
+  background:radial-gradient(black,transparent 80%);
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:0
+}
+.tierlist-label-text {
+  z-index:1;
+  font-size:35px;
+  font-weight:800;
+  color:white;
+  transform:translate(0px,-18px);
+  -webkit-text-stroke:9px black;
+  paint-order:stroke fill;
+  text-align:center
+}
+.tierlist-contents {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:8px;
+  width:80%;
+  pointer-events:none;
+  background:linear-gradient(90deg,black 0%,color-mix(in srgb,rgb(var(--raw-color)) 3%,black 90%) 1%,color-mix(in srgb,rgb(var(--raw-color)) 14%,black 88%) 62%);
+  box-shadow:0 0 25px 0px black inset
+}
+.tierlist-unit {
+  display:flex;
+  position:relative;
+  justify-content:center;
+  align-items:center;
+  width:120px;
+  height:115px;
+  background:black;
+  border-radius:14px
+}
+.tierlist-unit img {
+  width:120px;
+  height:115px;
+  aspect-ratio:1/1
+}
+.tierlist-unit-icon {
+  position:absolute;
+  top:0;
+  right:0;
+  width:50px;
+  height:50px;
+  pointer-events:none
+}
+.tierlist-unit-icon img {
+  width:100%;
+  height:auto;
+  aspect-ratio:1/1
+}
+.tierlist-utility-icon {
+  z-index:1;
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 224 224'%3E%3Cpath d='M85 22l-74 73 29 82 88 20-3.35-29.74c0 0 3.59-19.22 15.16-30.16 10.68-10.08 28.3-12.97 28.3-12.97l29.89 0.87v-96z'/%3E%3C/svg%3E");
+  mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 224 224'%3E%3Cpath d='M85 22l-74 73 29 82 88 20-3.35-29.74c0 0 3.59-19.22 15.16-30.16 10.68-10.08 28.3-12.97 28.3-12.97l29.89 0.87v-96z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+  -webkit-mask-size:contain;
+  mask-size:contain
+}
+.tier-header-trigger,
+.tier-unit-trigger {
+  cursor:pointer
+}
+.tier-header-trigger:focus-visible,
+.tier-unit-trigger:focus-visible {
+  outline:2px solid #168ff5;
+  outline-offset:3px
+}
+.data-header-title,
+.data-header-desc {
+  display:none !important
+}
+.tierlist-label-shadow,
+.tierlist-label-text,
+.tierlist-label .gradient-image,
+.tierlist-label .gradient-image a,
+.tierlist-label .gradient-image img {
+  pointer-events:none
+}
+.tierlist-unit.tier-unit-trigger {
+  pointer-events:auto;
+  isolation:isolate;
+  transition:transform 0.15s ease,filter 0.15s ease
+}
+.tierlist-unit.tier-unit-trigger::after {
+  content:"";
+  position:absolute;
+  inset:-2px;
+  z-index:30;
+  box-sizing:border-box;
+  border:2px solid transparent;
+  border-radius:16px;
+  pointer-events:none;
+  transition:border-color 0.15s ease,box-shadow 0.15s ease
+}
+.tierlist-unit.tier-unit-trigger:hover,
+.tierlist-unit.tier-unit-trigger:focus-visible {
+  transform:translateY(-2px);
+  filter:brightness(1.08)
+}
+.tierlist-unit.tier-unit-trigger:hover::after,
+.tierlist-unit.tier-unit-trigger:focus-visible::after {
+  border-color:var(--color,rgb(255 255 255 / 90%));
+  box-shadow:0 0 10px rgb(var(--raw-color,255 255 255) / 45%)
+}
+.tier-unit-trigger > a,
+.tier-unit-trigger > img,
+.tier-unit-trigger .tierlist-unit-icon,
+.tier-unit-trigger .tierlist-unit-icon a,
+.tier-unit-trigger .tierlist-unit-icon img {
+  pointer-events:none
+}
+.ae-tier-modal-backdrop {
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:100%;
+  padding:20px;
+  box-sizing:border-box;
+  overflow-y:auto;
+  background:rgb(0 0 0 / 72%);
+  backdrop-filter:blur(5px);
+  opacity:0;
+  transition:opacity 0.2s ease
+}
+.ae-tier-modal-backdrop.show {
+  opacity:1
+}
+.ae-modal.ae-header-modal,
+.ae-modal.ae-unit-modal {
+  position:relative;
+  isolation:isolate;
+  display:flex;
+  flex-direction:column;
+  width:650px;
+  max-width:90vw;
+  max-height:80vh;
+  min-height:auto !important;
+  padding:48px 28px 28px !important;
+  box-sizing:border-box;
+  overflow:auto;
+  color:#eee;
+  font-family:"Fredoka",sans-serif;
+  background:#010101 !important;
+  border:2px solid var(--border-color);
+  border-radius:12px;
+  box-shadow:0 10px 40px rgb(0 0 0 / 80%),0 0 18px rgb(var(--raw-color) / 24%),inset 0 0 24px rgb(var(--raw-color) / 5%);
+  transform:scale(0.96);
+  transition:transform 0.2s ease
+}
+.ae-tier-modal-backdrop.show .ae-modal {
+  transform:scale(1)
+}
+.ae-header-modal {
+  width:650px
+}
+.ae-unit-modal {
+  width:860px
+}
+.ae-header-modal .ae-modal-content,
+.ae-unit-modal .ae-modal-content {
+  width:100%
+}
+.ae-header-modal-layout {
+  display:flex;
+  align-items:center;
+  gap:25px;
+  width:100%;
+  box-sizing:border-box;
+  color:#eee;
+  text-align:left
+}
+.ae-header-modal-sidebar {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-width:115px;
+  padding-right:22px;
+  box-sizing:border-box;
+  text-align:center;
+  border-right:2px solid #4a4a4a
+}
+.ae-header-modal-icon {
+  position:relative;
+  width:72px;
+  height:72px;
+  margin-bottom:8px
+}
+.ae-header-modal-icon img {
+  width:100%;
+  height:auto;
+  object-fit:contain
+}
+.ae-modal-title {
+  color:#f4f4f4;
+  font-size:24px;
+  font-weight:600;
+  line-height:1.15
+}
+.ae-header-modal-description {
+  flex:1;
+  color:#e0e0e0;
+  font-size:18px;
+  line-height:1.6;
+  white-space:normal
+}
+.ae-unit-modal-content {
+  display:flex;
+  flex-direction:column;
+  gap:16px
+}
+.ae-unit-modal-header {
+  display:flex;
+  align-items:stretch;
+  gap:18px;
+  padding:14px;
+  background:#0c0c0c;
+  border:1px solid rgb(255 255 255 / 8%);
+  border-radius:10px
+}
+.ae-unit-modal-portrait {
+  flex:0 0 150px;
+  width:150px;
+  min-height:178px;
+  overflow:hidden;
+  background:#000;
+  border:1px solid #292929;
+  border-radius:10px
+}
+.ae-unit-modal-portrait img {
+  width:100%;
+  height:100%;
+  object-fit:cover
+}
+.ae-unit-modal-main {
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  gap:11px;
+  min-width:0
+}
+.ae-unit-modal-identity {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  min-width:0
+}
+.ae-unit-modal-title {
+  min-width:0;
+  color:#fff;
+  font-size:27px;
+  font-weight:700;
+  line-height:1.15;
+  overflow-wrap:anywhere
+}
+.ae-unit-page-link {
+  display:inline-flex;
+  flex:0 0 auto;
+  align-items:center;
+  justify-content:center;
+  padding:7px 12px;
+  color:#fff !important;
+  font-size:14px;
+  font-weight:600;
+  text-decoration:none !important;
+  background:#168ff5;
+  border:1px solid #168ff5;
+  border-radius:7px;
+  transition:filter 0.15s ease
+}
+.ae-unit-page-link:hover,
+.ae-unit-page-link:focus {
+  color:#fff !important;
+  filter:brightness(1.12)
+}
+.ae-unit-classifications {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px
+}
+.ae-unit-type-badge {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0;
+  padding:7px 9px;
+  background:#151515;
+  border:1px solid rgb(255 255 255 / 7%);
+  border-radius:7px
+}
+.ae-unit-type-icon {
+  flex:0 0 31px;
+  width:31px;
+  height:31px
+}
+.ae-unit-type-icon img {
+  width:100% !important;
+  height:auto !important;
+  object-fit:contain
+}
+.ae-unit-type-copy {
+  display:flex;
+  flex-direction:column;
+  min-width:0
+}
+.ae-unit-type-label {
+  color:#8f8f8f;
+  font-size:11px;
+  font-weight:600
+}
+.ae-unit-type-value {
+  font-size:15px;
+  font-weight:700;
+  overflow-wrap:anywhere
+}
+.ae-unit-trait {
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:5px
+}
+.ae-unit-trait-label {
+  color:#f1f1f1;
+  font-size:13px;
+  font-weight:700
+}
+.ae-unit-trait-choices {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:7px
+}
+.ae-unit-trait-option {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-height:43px;
+  padding:5px 9px;
+  background:#191919;
+  border:1px solid #3a3a3a;
+  border-radius:7px
+}
+.ae-unit-trait-option-text {
+  min-width:0;
+  font-size:16px;
+  font-weight:700;
+  overflow-wrap:anywhere
+}
+.ae-unit-modal-trait-icon {
+  position:relative !important;
+  inset:auto !important;
+  flex:0 0 32px;
+  width:32px !important;
+  height:32px !important;
+  pointer-events:none
+}
+.ae-unit-modal-trait-icon img {
+  width:100% !important;
+  height:auto !important;
+  object-fit:contain
+}
+.ae-unit-quick-stats {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px
+}
+.ae-unit-quick-stat {
+  min-width:0;
+  padding:9px 10px;
+  background:#191919;
+  border:1px solid var(--border-color,rgb(41 41 41));
+  border-radius:8px
+}
+.ae-unit-quick-label {
+  margin-bottom:4px;
+  color:#9d9d9d;
+  font-size:11px;
+  font-weight:600
+}
+.ae-unit-quick-value {
+  color:#f2f2f2;
+  font-size:16px;
+  font-weight:650;
+  overflow-wrap:anywhere
+}
+.tier-unit-equipment-source,
+.ae-equipment-effect-content.is-collapsed,
+.ae-equipment-card.is-hidden,
+.ae-unit-additional-panel.is-hidden {
+  display:none !important
+}
+.ae-unit-equipment-section,
+.ae-unit-additional-section {
+  overflow:hidden;
+  background:#0c0c0c;
+  border:1px solid var(--border-color,rgb(41 41 41));
+  border-radius:10px
+}
+.ae-unit-equipment-title {
+  padding:12px 15px;
+  color:#f2f2f2;
+  font-size:17px;
+  font-weight:650;
+  background:#191919
+}
+.ae-unit-equipment-panel {
+  min-height:46px;
+  padding:13px;
+  border-top:1px solid var(--border-color,rgb(41 41 41))
+}
+.ae-unit-equipment-panel.is-loading {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#a8a8a8;
+  font-size:14px
+}
+.ae-equipment-picker {
+  display:flex;
+  flex-direction:column;
+  gap:11px
+}
+.ae-equipment-choices {
+  display:flex;
+  gap:8px
+}
+.ae-equipment-choice {
+  position:relative;
+  display:flex;
+  flex:1 1 0;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  padding:8px;
+  overflow:hidden;
+  background:#191919;
+  border:2px solid #292929;
+  border-radius:8px;
+  cursor:pointer;
+  transition:border-color 0.15s ease,filter 0.15s ease,transform 0.15s ease
+}
+.ae-equipment-choice:hover,
+.ae-equipment-choice:focus-visible {
+  filter:brightness(1.1);
+  transform:translateY(-1px)
+}
+.ae-equipment-choice.is-active {
+  border-color:var(--color,#0bbfc0);
+  box-shadow:0 0 10px rgb(var(--raw-color,11 191 192) / 22%)
+}
+.ae-equipment-choice a {
+  pointer-events:none
+}
+.ae-equipment-choice .ebox_item {
+  --ebox-size:102px;
+  margin:0
+}
+.ae-equipment-panels {
+  min-width:0
+}
+.ae-equipment-card {
+  min-width:0;
+  padding:11px;
+  background:#191919;
+  border:1px solid var(--border-color,rgb(41 41 41));
+  border-radius:8px
+}
+.ae-equipment-card-title {
+  margin-bottom:9px;
+  color:#f2f2f2;
+  font-size:16px;
+  font-weight:700
+}
+.ae-equipment-details {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:7px
+}
+.ae-equipment-stat {
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px 6px;
+  padding:8px;
+  background:#0c0c0c;
+  border:1px solid rgb(255 255 255 / 4%);
+  border-radius:6px;
+  font-size:13px
+}
+.ae-equipment-stat-name {
+  color:#c1c1c1
+}
+.ae-equipment-effect {
+  grid-column:1 / -1;
+  overflow:hidden;
+  background:#0c0c0c;
+  border:1px solid var(--border-color,rgb(41 41 41));
+  border-radius:6px
+}
+.ae-equipment-effect-summary {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:5px;
+  padding:9px;
+  color:#eee;
+  font-size:12px;
+  font-weight:600;
+  cursor:pointer
+}
+.ae-equipment-effect-summary::after {
+  content:"+";
+  margin-left:auto;
+  color:#999;
+  font-size:17px
+}
+.ae-equipment-effect.is-open > .ae-equipment-effect-summary::after {
+  content:"\2212"
+}
+.ae-equipment-effect-summary:focus-visible {
+  outline:2px solid #7667ff;
+  outline-offset:-2px
+}
+.ae-equipment-effect-name {
+  overflow-wrap:anywhere
+}
+.ae-equipment-effect-content {
+  padding:9px;
+  color:#c1c1c1;
+  font-size:12px;
+  line-height:1.45;
+  background:#010101;
+  border-top:1px solid rgb(255 255 255 / 4%)
+}
+.ae-equipment-override {
+  margin-top:8px;
+  padding-top:7px;
+  color:#8d8d8d;
+  border-top:1px solid rgb(255 255 255 / 4%)
+}
+.ae-equipment-empty,
+.ae-equipment-missing {
+  color:#a8a8a8;
+  font-size:14px;
+  text-align:center
+}
+.ae-unit-additional-toggle {
+  position:relative;
+  display:flex;
+  align-items:center;
+  width:100%;
+  margin:0;
+  padding:13px 44px 13px 15px;
+  color:#f2f2f2;
+  font-family:inherit;
+  font-size:17px;
+  font-weight:650;
+  text-align:left;
+  background:#191919;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  -webkit-text-stroke:0 transparent;
+  paint-order:stroke fill;
+  cursor:pointer
+}
+.ae-unit-additional-toggle::after {
+  content:"+";
+  position:absolute;
+  right:16px;
+  color:#a8a8a8;
+  font-size:23px;
+  line-height:1
+}
+.ae-unit-additional-toggle[aria-expanded="true"]::after {
+  content:"\2212"
+}
+.ae-unit-additional-toggle:hover,
+.ae-unit-additional-toggle:focus-visible {
+  background:#202020
+}
+.ae-unit-additional-panel {
+  padding:14px 15px;
+  color:#d0d0d0;
+  font-size:14px;
+  line-height:1.55;
+  border-top:1px solid var(--border-color,rgb(41 41 41))
+}
+.ae-header-modal > button.ae-modal-close,
+.ae-unit-modal > button.ae-modal-close {
+  position:absolute !important;
+  top:7px !important;
+  right:auto !important;
+  bottom:auto !important;
+  left:10px !important;
+  z-index:10 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:35px !important;
+  min-width:35px !important;
+  max-width:35px !important;
+  height:35px !important;
+  min-height:35px !important;
+  max-height:35px !important;
+  margin:0 !important;
+  padding:0 !important;
+  color:#fff !important;
+  font-family:inherit !important;
+  font-size:25px !important;
+  font-weight:500 !important;
+  line-height:1 !important;
+  background:transparent !important;
+  border:0 !important;
+  border-radius:50% !important;
+  box-shadow:none !important;
+  -webkit-text-stroke:0 transparent;
+  paint-order:stroke fill;
+  appearance:none !important;
+  cursor:pointer !important;
+  transition:filter 0.15s ease
+}
+.ae-header-modal > button.ae-modal-close:hover,
+.ae-header-modal > button.ae-modal-close:focus,
+.ae-unit-modal > button.ae-modal-close:hover,
+.ae-unit-modal > button.ae-modal-close:focus {
+  color:#fff !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  filter:brightness(0.7)
+}
+@media screen and (max-width:700px) {
+  .ae-modal.ae-header-modal,
+  .ae-modal.ae-unit-modal {
+    width:94vw;
+    max-width:94vw;
+    padding:46px 18px 20px !important
+  }
+  .ae-header-modal-layout {
+    flex-direction:column;
+    gap:18px
+  }
+  .ae-header-modal-sidebar {
+    width:100%;
+    padding:0 0 16px;
+    border-right:0;
+    border-bottom:2px solid #4a4a4a
+  }
+  .ae-header-modal-description {
+    font-size:16px
+  }
+  .ae-unit-modal-header {
+    flex-direction:column
+  }
+  .ae-unit-modal-portrait {
+    width:100%;
+    min-height:180px
+  }
+  .ae-unit-modal-identity {
+    align-items:flex-start;
+    flex-direction:column
+  }
+  .ae-unit-modal-title {
+    font-size:22px
+  }
+  .ae-unit-classifications,
+  .ae-unit-quick-stats,
+  .ae-equipment-details {
+    grid-template-columns:1fr
+  }
+  .ae-equipment-choices {
+    flex-wrap:wrap
+  }
+  .ae-equipment-choice {
+    flex-basis:calc(50% - 4px)
+  }
+}
+@media screen and (min-width:1600px) and (min-height:850px) {
+  .ae-modal.ae-header-modal,
+  .ae-modal.ae-unit-modal {
+    transform:scale(1.25) !important;
+    transform-origin:center center
+  }
+}
+.link-override a {
+  color:white !important;
+  text-decoration:none !important
+}
+:root {
+  --font-family-base:"Montserrat",sans-serif;
+  --font-size-x-small:0.75rem;
+  --font-size-small:0.875rem;
+  --font-size-medium:1rem;
+  --font-size-large:1.125rem;
+  --font-size-x-large:1.25rem;
+  --font-size-xx-large:1.5rem;
+  --font-size-xxx-large:1.75rem;
+  --line-height-x-small:1.25rem;
+  --line-height-small:1.375rem;
+  --line-height-medium:1.625rem;
+  --line-height-large:1.75rem;
+  --line-height-x-large:1.875rem;
+  --line-height-xx-large:2rem;
+  --line-height-xxx-large:2.375rem;
+  --line-height-content:1.625;
+  --color-destructive:hsl(0deg 100% 64.23%);
+  --color-link:oklch(0.68 0.18 262.54)
+}
+.mw-editsection {
+  display:none !important
+}
+body {
+  background-color:#090909 !important;
+  font-family:"Montserrat",sans-serif
+}
+.citizen-body {
+  background:transparent;
+  padding:var(--padding-page);
+  font-size:var(--font-size-small);
+  line-height:var(--line-height-xx-large)
+}
+@media screen and (min-width:900px) {
+  body {
+    background:transparent !important
+  }
+  body::before {
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background-image:url(https://static.wikitide.net/animeexpeditionswiki/7/77/Fairy_King_Forest_Site_Background.webp);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:rgb(0 0 0 / 52%);
+    background-blend-mode:darken
+  }
+  .citizen-body {
+    background:repeating-linear-gradient(45deg,#090909 5px,#090909 10px,#060606 10px,#060606 15px) padding-box,repeating-linear-gradient(0deg,#00fff5 0px,#38a1e9 300px,#00fff5 600px) border-box;
+    border-radius:var(--border-radius-medium);
+    padding:var(--padding-page);
+    box-shadow:var(--box-shadow-large);
+    z-index:0;
+    padding-top:0px;
+    border:3px solid transparent;
+    padding-top:10px
+  }
+  .citizen-body-container,
+  .citizen-page-header {
+    max-width:var(--width-layout);
+    margin-left:auto;
+    margin-right:auto;
+    --width-layout:1300px
+  }
+  #siteSub,
+  #contentSub,
+  #contentSub2 {
+    color:oklch(1 0 0)
+  }
+  .citizen-page-heading {
+    position:relative;
+    z-index:1;
+    top:0px;
+    padding-top:34px;
+    left:10px
+  }
+  .mw-page-title-main {
+    font-size:var(--font-size-xx-large);
+    font-family:'Fredoka';
+    -webkit-text-stroke:5px black;
+    paint-order:stroke fill;
+    padding:0px 2px
+  }
+  .firstHeading {
+    font-size:var(--font-size-xx-large);
+    font-family:'Fredoka';
+    -webkit-text-stroke:5px black;
+    paint-order:stroke fill;
+    padding:2px
+  }
+  .citizen-page-heading::after {
+    content:"";
+    position:absolute;
+    top:-20px;
+    left:-40px;
+    width:1000px;
+    height:140px;
+    background-image:linear-gradient(rgb(97 253 245 / var(--opacity,1)),rgb(7 127 253 / var(--opacity,1))),url(https://static.wikitide.net/animeexpeditionswiki/0/0a/Page_Banner.webp);
+    background-blend-mode:multiply;
+    -webkit-mask-image:url(https://static.wikitide.net/animeexpeditionswiki/0/0a/Page_Banner.webp);
+    mask-image:url(https://static.wikitide.net/animeexpeditionswiki/0/0a/Page_Banner.webp);
+    background-size:cover,contain;
+    background-repeat:no-repeat;
+    background-position:center,left center;
+    -webkit-mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-position:left center;
+    z-index:-1;
+    margin-left:-41px;
+    pointer-events:none 
+  }
+  body.ns-2 .citizen-page-heading::after {
+    display:none
+  }
+  .citizen-body-container {
+    margin-top:-8px
+  }
+  .citizen-page-heading h1 {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:270px;
+    display:block
+  }
+}
+#siteSub,
+#contentSub,
+#contentSub2 {
+  display:none
+}
+#citizen-sidebar-lastmod,
+#citizen-toc,
+.sidebar-chunk {
+  padding:10px;
+  background:repeating-linear-gradient(45deg,#090909 5px,#090909 10px,#060606 10px,#060606 15px) padding-box,repeating-linear-gradient(0deg,#00fff5 0px,#38a1e9 300px,#00fff5 600px) border-box;
+  border-radius:var(--border-radius-large);
+  border:2px solid transparent
+}
+.citizen-page-sidebar {
+  margin-top:0px !important
+}
+.citizen-header-position-top .citizen-header {
+  background:radial-gradient(ellipse at 50% 100%,#00d3ff61 0%,#00d3ff39 5%,#00d3ff28 10%,#00d3ff02 50%,transparent 100%),linear-gradient(89deg,rgb(0 0 0 / 100%),transparent 30%),linear-gradient(182deg,#000000 0%,rgb(15 15 15 / 83%) 100%),url(https://static.wikitide.net/animeexpeditionswiki/3/37/Checkered_Black.png),linear-gradient(#007fff) !important;
+  border-bottom:0px
+}
+.citizen-sticky-header-background {
+  background:linear-gradient(180deg,#010c14 50%,rgb(0 15 26 / 91%) 90%) !important
+}
+.mw-body-content p,
+li {
+  color:white;
+  line-height:2;
+  font-size:var(--font-size-small)
+}
+.citizen-overflow-wrapper {
+  box-shadow:unset !important
+}
+.citizen-footer {
+  background:linear-gradient(180deg,#010c14 50%,rgb(0 15 26 / 91%) 90%) !important
+}
+.citizen-footer__content {
+  display:flex;
+  width:100%;
+  flex-direction:column
+}
+.citizen-footer__content,
+.citizen-footer__bottom {
+  justify-content:center;
+  gap:20px !important
+}
+.citizen-footer__siteinfo {
+  align-items:center;
+  justify-content:center;
+  vertical-align:middle;
+  display:flex;
+  flex-direction:row!important;
+  flex-wrap:wrap;
+  margin-top:-15px;
+  min-width:100%
+}
+#footer-places {
+  font-size:15px;
+  gap:0px;
+  justify-content:center;
+  display:flex;
+  align-items:flex-end;
+  flex-grow:1
+}
+#footer-places ul {
+  display:flex!important;
+  justify-content:center
+}
+.citizen-footer__content,
+.citizen-footer__bottom {
+  justify-content:center;
+  gap:20px !important
+}
+#footer-desc {
+  font-size:130%;
+  font-weight:bold;
+  justify-content:center;
+  flex-direction:column;
+  text-align:center
+}
+#footer-tagline,
+#footer-sitetitle {
+  display:none
+}
+.mw-heading3,
+.mw-heading4 {
+  margin-top:1rem
+}
+#wispy-beam-canvas {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:0;
+  width:100%;
+  height:60px;
+  pointer-events:none;
+  z-index:0;
+  opacity:0.9;
+  filter:blur(1px)
+}
+.user-profile-toolbar {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  list-style:none;
+  margin:1.5em;
+  padding:0
+}
+.user-profile-toolbar li a {
+  display:block;
+  padding:3px 16px;
+  color:#fff;
+  text-decoration:none;
+  border-bottom:2px solid #35a5e9;
+  border-radius:3px
+}
+.user-profile-toolbar li.selected a {
+  border-color:#00fff5
+}
+.profile-header-attributes {
+  width:auto !important
+}
+.profile-identitybox {
+  display:flex;
+  margin:35px;
+  align-items:center
+}
+
+
+/* Standalone shell overrides */
+
+:root{
+  --font-family-base:"Montserrat",sans-serif;
+  --font-size-x-small:.75rem; --font-size-small:.875rem; --font-size-medium:1rem;
+  --font-size-large:1.125rem; --font-size-x-large:1.25rem;
+  --font-size-xx-large:1.5rem; --line-height-xx-large:2rem;
+  --border-radius-medium:16px; --border-radius-large:16px; --box-shadow-large:0 0 0 2px #000;
+  --padding-page:0;
+  --secret-bg:linear-gradient(90deg,#a30000,#ff1f1f,#8d0000);
+  --flame-bg:linear-gradient(90deg,#ff8a00,#ff4d00,#ffc400);
+  --magical-bg:linear-gradient(90deg,#00dfff,#348dff,#b4f3ff);
+  --limited-bg:linear-gradient(90deg,#9b7cff,#d9c8ff,#6c4cff);
+  --illusion-bg:linear-gradient(90deg,#ff263f,#ff6b76,#a80018);
+  --blackfire-bg:linear-gradient(90deg,#d7d7d7,#777,#e7e7e7);
+  --attack-bg:linear-gradient(90deg,#fff,#a9cfff,#fff);
+  --passive-bg:linear-gradient(90deg,#00e8ff,#00a9ff,#00e8ff);
+  --gemlike-bg:linear-gradient(90deg,#86e8ff,#e8f5ff,#6fb7ff);
+  --legendary-bg:linear-gradient(90deg,#ffd84a,#fff3a1,#ff9f00);
+  --mythic-bg:linear-gradient(var(--deg,135deg),rgb(255 7 7),rgb(247 221 27),rgb(93 229 30),rgb(43 174 194),rgb(97 61 206),rgb(255 84 238));
+}
+html{background:#070707;min-height:100%;scroll-behavior:smooth}
+body{
+  margin:0 !important; min-width:320px; overflow-x:hidden;
+  background:repeating-linear-gradient(45deg,#090909 0,#090909 5px,#060606 5px,#060606 10px) !important;
+  color:#fff; font-family:"Montserrat",sans-serif !important;
+}
+body::before,body::after{display:none !important}
+.standalone-main{width:min(1280px,calc(100vw - 28px));margin:0 auto;padding:0 0 40px}
+.mw-parser-output{width:100%;margin:0;padding:0}
+.mw-parser-output p{
+  margin:0 0 8px !important;color:#fff !important;
+  font-family:"Montserrat",sans-serif !important;font-size:14px !important;line-height:2rem !important;
+}
+.mw-parser-output a{color:#4b98ff}
+.mw-parser-output b{font-weight:750}
+.c-secret{--bg:var(--secret-bg) !important}.c-flame{--bg:var(--flame-bg) !important}
+.c-magical{--bg:var(--magical-bg) !important}.c-limited{--bg:var(--limited-bg) !important}
+.c-illusion{--bg:var(--illusion-bg) !important}.c-blackfire{--bg:var(--blackfire-bg) !important}
+.c-attack{--bg:var(--attack-bg) !important}.c-passive{--bg:var(--passive-bg) !important}
+.c-gemlike{--bg:var(--gemlike-bg) !important}.c-legendary{--bg:var(--legendary-bg) !important}
+.c-mythic{--bg:var(--mythic-bg) !important}
+.c-purplink{--bg:linear-gradient(90deg,#eb53ff,#8e1bff) !important}
+.unit-page-unit-container{width:100% !important;min-height:770px !important;gap:8px !important}
+.unit-page-container-1{width:max(48%,300px) !important;flex-grow:1 !important;min-width:0 !important}
+.unit-page-pose-container{height:770px !important;max-height:770px !important;padding:8px 0 0 !important}
+.unit-page-pose-img img{max-height:750px !important;max-width:100% !important}
+.unit-page-title,.unit-page-rarity,.unit-page-passive-header,.ae-container-header,.ebox_Title,.ebox_Title-inner,.ebox_amount{
+  font-family:"Fredoka",sans-serif !important
+}
+.unit-page-passive-content{font-family:"Montserrat",sans-serif !important}
+.unit-page-passive-header .gradient-text.c-passive,
+.unit-page-passive-header .gradient-text.c-purplink{
+  font-family:"Montserrat",sans-serif !important;
+  font-weight:800 !important;
+}
+.unit-page-properties-container{height:687.61px !important}
+.global-tooltip-wrapper .global-tooltip-content{display:none !important}
+.global-tooltip-wrapper:hover > .global-tooltip-content{display:block !important}
+@media(max-width:900px){
+  .standalone-main{width:calc(100vw - 16px)}
+  .unit-page-unit-container{flex-direction:column}
+  .unit-page-container-1{width:100% !important}
+  .unit-page-pose-container{height:auto !important;min-height:500px}
+}
+
+/* ===============================
+   Crow visual editor
+   =============================== */
+.ae-editor-toolbar{
+  position:fixed;right:18px;bottom:18px;z-index:1000000;
+  display:flex;align-items:center;gap:7px;flex-wrap:wrap;
+  max-width:min(760px,calc(100vw - 36px));
+  padding:10px 12px;border:2px solid #292929;border-radius:14px;
+  background:rgba(8,8,8,.96);
+  box-shadow:0 8px 30px rgba(0,0,0,.65),0 0 0 2px #000;
+  font-family:"Montserrat",sans-serif;
+}
+.ae-editor-title{width:100%;font-family:"Fredoka",sans-serif;font-size:17px;font-weight:700;color:#fff}
+.ae-editor-toolbar button{
+  appearance:none;border:1px solid #3d3d3d;border-radius:8px;background:#171717;color:#eee;
+  padding:7px 10px;font:600 12px "Montserrat",sans-serif;cursor:pointer;transition:.15s ease;
+}
+.ae-editor-toolbar button:hover{background:#292929;border-color:#5c5c5c;transform:translateY(-1px)}
+.ae-editor-hint{color:#999;font-size:11px;margin-left:3px}
+.ae-editable{cursor:text!important;transition:outline .12s ease,box-shadow .12s ease}
+.ae-editable:hover{outline:1px dashed rgba(0,217,255,.38);outline-offset:2px}
+.ae-editing{outline:2px solid #00d9ff!important;outline-offset:2px;cursor:text!important}
+.ae-editor-toast{
+  position:fixed;left:50%;bottom:22px;z-index:1000002;transform:translate(-50%,20px);
+  opacity:0;pointer-events:none;padding:8px 14px;border-radius:9px;border:1px solid #303030;
+  background:#101010;color:#fff;font:600 12px "Montserrat",sans-serif;transition:.2s ease;
+}
+.ae-editor-toast.is-visible{opacity:1;transform:translate(-50%,0)}
+@media(max-width:700px){
+  .ae-editor-toolbar{left:8px;right:8px;bottom:8px;max-width:none}
+}
+
+.ae-format-toolbar{
+  position:absolute;z-index:1000003;
+  display:flex;align-items:center;gap:6px;
+  padding:6px 8px;border:1px solid #3d3d3d;border-radius:10px;
+  background:rgba(10,10,10,.98);
+  box-shadow:0 6px 22px rgba(0,0,0,.6),0 0 0 2px #000;
+  font-family:"Montserrat",sans-serif;
+  opacity:0;transform:translateY(4px);pointer-events:none;
+  transition:opacity .12s ease,transform .12s ease;
+}
+.ae-format-toolbar.ae-format-toolbar-visible{
+  opacity:1;transform:translateY(0);pointer-events:auto;
+}
+.ae-format-toolbar button{
+  appearance:none;border:1px solid #3d3d3d;border-radius:6px;background:#171717;color:#eee;
+  padding:5px 9px;font:600 13px "Montserrat",sans-serif;cursor:pointer;transition:.15s ease;
+  min-width:28px;
+}
+.ae-format-toolbar button:hover{background:#292929;border-color:#5c5c5c}
+.ae-format-toolbar select{
+  appearance:none;border:1px solid #3d3d3d;border-radius:6px;background:#171717;color:#eee;
+  padding:5px 6px;font:600 12px "Montserrat",sans-serif;cursor:pointer;
+}
+.ae-format-sep{width:1px;align-self:stretch;background:#333;margin:0 2px}
+.ae-format-swatch{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:26px;height:26px;border-radius:6px;border:1px solid #3d3d3d;
+  overflow:hidden;cursor:pointer;background:#171717;
+}
+.ae-format-swatch input[type="color"]{
+  width:34px;height:34px;border:none;padding:0;background:none;cursor:pointer;
+  transform:translate(-2px,-2px);
+}
+.ae-format-span{border-radius:2px}
+
+/* ===============================
+   Ability / Passive visual editor
+   =============================== */
+.ae-editor-toolbar{
+  max-width:min(920px,calc(100vw - 36px));
+}
+.ae-generated-block{
+  position:relative;
+}
+.unit-page-passive-block{
+  cursor:pointer;
+  transition:outline .12s ease,box-shadow .12s ease;
+}
+.unit-page-passive-block.ae-block-selected{
+  outline:2px solid #00d9ff;
+  outline-offset:2px;
+  box-shadow:0 0 0 4px rgba(0,217,255,.15);
+}
+.ae-editor-toolbar button[data-action="toggle-rarity"]{
+  border-color:#5c4a1a;
+  color:#ffd97a;
+}
+.ae-editor-toolbar button[data-action="toggle-rarity"]:hover{
+  background:#332a10;
+  border-color:#ffb800;
+}
+.ae-editor-toolbar button[data-action="delete-block"]{
+  border-color:#5c2020;
+  color:#ff9c9c;
+}
+.ae-editor-toolbar button[data-action="delete-block"]:hover{
+  background:#3a1414;
+  border-color:#ff6b6b;
+}
+.ae-editor-toolbar button[data-action="delete-block"]:disabled{
+  opacity:.35;
+  cursor:not-allowed;
+  color:#eee;
+  background:#171717;
+  border-color:#3d3d3d;
+  transform:none;
+}
+.ae-header-name-editable{
+  display:inline-block;
+  min-width:25px;
+}
+.ae-ability-block .unit-page-passive-header .c-purplink,
+.ae-ability-block .gradient-text.c-purplink{
+  --bg:linear-gradient(90deg,#b24cff,#ee9dff,#9a43ff)!important;
+}
+.ae-ability-cooldowns{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:5px 10px 6px;
+  background:#191919;
+  border-top:1px solid #292929;
+}
+.ae-cooldown-pill{
+  display:inline-block;
+  padding:2px 6px;
+  border:2px solid #292929;
+  border-radius:6px;
+  background:#101010;
+  color:#d0d0d0;
+  font:600 14px/1.2 "Montserrat",sans-serif;
+  box-shadow:inset 0 0 4px #000;
+  cursor:text;
+}
+.ae-add-cooldown{
+  border:1px solid #3d3d3d;
+  border-radius:6px;
+  background:#111;
+  color:#aaa;
+  padding:3px 7px;
+  font:600 11px "Montserrat",sans-serif;
+  cursor:pointer;
+}
+.ae-add-cooldown:hover{color:#fff;background:#292929}
+.ae-ability-unlock{
+  background:#050505;
+  padding:6px 8px;
+  color:#c1c1c1;
+  font:450 15px/1.4 "Montserrat",sans-serif;
+  border-top:1px solid #292929;
+}
+.ae-generated-block .ae-editable:hover,
+.ae-generated-block [data-editable-part]:hover{
+  outline:1px dashed rgba(0,217,255,.45);
+  outline-offset:2px;
+}
+.ae-generated-block .ae-editing{
+  outline:2px solid #00d9ff!important;
+  outline-offset:2px;
+  background:rgba(0,217,255,.04);
+}
+
+
+/* Unit icon editor */
+.ae-unit-icon-editable{cursor:pointer !important; position:relative; transition:filter .15s ease, transform .15s ease;}
+.ae-unit-icon-editable:hover{filter:brightness(1.25); transform:scale(1.06); z-index:5;}
+.ae-icon-modal{position:fixed;inset:0;z-index:1000005;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;padding:18px;}
+.ae-icon-modal-card{width:min(900px,96vw);max-height:min(760px,92vh);display:flex;flex-direction:column;background:#080808;border:2px solid #292929;border-radius:16px;box-shadow:0 20px 70px rgba(0,0,0,.8);overflow:hidden;font-family:"Montserrat",sans-serif;}
+.ae-icon-modal-head{display:flex;justify-content:space-between;gap:16px;padding:16px 18px;border-bottom:1px solid #292929;background:#111;}
+.ae-icon-modal-title{font:700 22px "Fredoka",sans-serif;color:#fff;}
+.ae-icon-modal-subtitle{font-size:11px;color:#929292;margin-top:3px;}
+.ae-icon-close{border:0;background:transparent;color:#aaa;font-size:28px;line-height:1;cursor:pointer;padding:0 5px;}
+.ae-icon-close:hover{color:#fff;}
+.ae-icon-search{margin:12px 16px 0;background:#111;border:1px solid #363636;border-radius:8px;color:#fff;padding:9px 11px;outline:none;font:500 13px "Montserrat",sans-serif;}
+.ae-icon-search:focus{border-color:#00cfff;box-shadow:0 0 0 2px rgba(0,207,255,.12);}
+.ae-icon-modal-body{overflow:auto;padding:12px 16px 16px;}
+.ae-icon-section{margin-bottom:14px;}
+.ae-icon-section-title{font:700 14px "Fredoka",sans-serif;color:#ddd;margin:3px 0 8px;}
+.ae-current-icons{display:flex;flex-wrap:wrap;gap:8px;padding:8px;border:1px solid #292929;border-radius:10px;background:#050505;min-height:58px;}
+.ae-current-icon{position:relative;display:flex;align-items:center;gap:7px;padding:6px 24px 6px 7px;border:1px solid #292929;border-radius:8px;background:#111;color:#ddd;font-size:11px;cursor:pointer;}
+.ae-current-icon img{width:32px;height:32px;object-fit:contain;}
+.ae-current-remove{position:absolute;right:3px;top:3px;width:17px;height:17px;padding:0;border:0;border-radius:50%;background:#2a2a2a;color:#aaa;cursor:pointer;line-height:16px;}
+.ae-current-remove:hover{background:#7b1515;color:#fff;}
+.ae-icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;}
+.ae-icon-choice{min-height:100px;border:1px solid #292929;border-radius:9px;background:#101010;color:#ddd;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:8px;cursor:pointer;font:600 10px "Montserrat",sans-serif;}
+.ae-icon-choice:hover{border-color:#00cfff;background:#171717;box-shadow:0 0 12px rgba(0,207,255,.12);}
+.ae-icon-choice img{width:52px;height:52px;object-fit:contain;}
+.ae-icon-modal-foot{display:flex;justify-content:flex-end;gap:8px;padding:12px 16px;border-top:1px solid #292929;background:#111;}
+.ae-icon-modal-foot button{border:1px solid #3b3b3b;border-radius:8px;background:#1b1b1b;color:#fff;padding:8px 12px;cursor:pointer;font:700 12px "Montserrat",sans-serif;}
+.ae-icon-modal-foot button:hover{background:#292929;}
+.ae-icon-modal-foot .ae-icon-done{border-color:#0088a5;background:#006477;}
+@media(max-width:600px){.ae-icon-grid{grid-template-columns:repeat(auto-fill,minmax(82px,1fr));}.ae-icon-choice{min-height:84px}.ae-icon-choice img{width:42px;height:42px}}
